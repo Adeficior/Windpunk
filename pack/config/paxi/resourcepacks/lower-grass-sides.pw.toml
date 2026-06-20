@@ -1,0 +1,13 @@
+name = "Lower Grass Sides"
+filename = "§9☀ §bLower Grass Sides §8[v1.0].zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ecmTBOSu/versions/nPehXvmD/%C2%A79%E2%98%80%20%C2%A7bLower%20Grass%20Sides%20%C2%A78%5Bv1.0%5D.zip"
+hash-format = "sha512"
+hash = "2d1d9a04ba954a21310cd685d8390339678bb3b7747bae9851f4d5d1612b82068499de7f4f43010bd8c26334a0e74871110e51cfef8016518454fe4dbcac62d7"
+
+[update]
+[update.modrinth]
+mod-id = "ecmTBOSu"
+version = "nPehXvmD"

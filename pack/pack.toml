@@ -1,0 +1,16 @@
+name = "windpunk"
+author = "possible-triangle"
+version = "0.0.0-dev"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "bca9a72b288ddf0666d0839f9bbf7d80d919a8e91833ed7664bff10946cbc83c"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.233"
+
+[options]
+datapack-folder = "config/paxi"

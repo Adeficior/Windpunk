@@ -1,0 +1,15 @@
+{
+  "name": "windpunk",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@voidshake/assembler": "link:@voidshake/assembler"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

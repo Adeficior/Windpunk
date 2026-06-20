@@ -1,0 +1,13 @@
+name = "Create: Automotives"
+filename = "create-automotives-1.21.1-V2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/yipFHNZ2/versions/ZmFiU3eC/create-automotives-1.21.1-V2.jar"
+hash-format = "sha512"
+hash = "289faffdda9d237adbdadd44779c049451dd779b9223927ccd6ebc1aeb95e43544aae182ee052324058734181264f8bfe4034a9d3157fc8a576a591e176f0157"
+
+[update]
+[update.modrinth]
+mod-id = "yipFHNZ2"
+version = "ZmFiU3eC"
