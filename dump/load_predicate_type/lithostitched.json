@@ -1,0 +1,9 @@
+[
+  "lithostitched:all_of",
+  "lithostitched:any_of",
+  "lithostitched:loader",
+  "lithostitched:mod_loaded",
+  "lithostitched:not",
+  "lithostitched:pack_format",
+  "lithostitched:true"
+]

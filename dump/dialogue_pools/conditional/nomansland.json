@@ -1,0 +1,10 @@
+[
+  "nomansland:addition_to_commune",
+  "nomansland:effect_conditional",
+  "nomansland:entity_conditional",
+  "nomansland:equipment_conditional",
+  "nomansland:first_time",
+  "nomansland:from_dream",
+  "nomansland:item_conditional",
+  "nomansland:on_death"
+]

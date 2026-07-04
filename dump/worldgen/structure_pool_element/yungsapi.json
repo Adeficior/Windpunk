@@ -1,0 +1,8 @@
+[
+  "yungsapi:max_count_feature_element",
+  "yungsapi:max_count_legacy_single_element",
+  "yungsapi:max_count_list_element",
+  "yungsapi:max_count_single_element",
+  "yungsapi:yung_feature_element",
+  "yungsapi:yung_single_element"
+]

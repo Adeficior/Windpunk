@@ -1,0 +1,6 @@
+[
+  "moonlight:iconditions",
+  "moonlight:load_conditions",
+  "moonlight:loot_table_id_pattern",
+  "moonlight:optional_block_state_property"
+]

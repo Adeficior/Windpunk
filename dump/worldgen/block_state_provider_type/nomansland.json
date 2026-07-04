@@ -1,0 +1,5 @@
+[
+  "nomansland:extended_weighted_state_provider",
+  "nomansland:strata_state_provider",
+  "nomansland:vertical_gradient_state_provider"
+]

@@ -3,13 +3,22 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "serve": "packwiz serve --pack-file pack/pack.toml",
+    "assemble": "assembler --generate --merge",
+    "download": "docker compose up installer --build --abort-on-container-exit",
+    "dump": "docker compose up dump --build --abort-on-container-exit",
+    "prepare": "assembler --prepare"
+  },
   "dependencies": {
-    "@voidshake/assembler": "link:@voidshake/assembler"
+    "@adeficior/assembler": "link:@adeficior/assembler"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "typescript": "^5"
   },
   "peerDependencies": {
-    "typescript": "^5"
+    "@adeficior/pack-resolver": "*",
+    "@adeficior/data-modifier": "*"
   }
 }

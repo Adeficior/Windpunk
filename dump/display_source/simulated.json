@@ -1,0 +1,12 @@
+[
+  "simulated:altitude_sensor_display",
+  "simulated:auger_throughput",
+  "simulated:docking_connector_display",
+  "simulated:gimbal_display",
+  "simulated:laser_sensor_display",
+  "simulated:linked_typewriter_display",
+  "simulated:nav_table_display",
+  "simulated:optical_sensor_display",
+  "simulated:portable_engine_display",
+  "simulated:velocity_display"
+]

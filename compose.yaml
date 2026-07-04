@@ -1,0 +1,40 @@
+name: windpunk-installer
+
+services:
+  packwiz:
+    build:
+      context: pack
+      dockerfile: ../Dockerfile
+
+  installer:
+    image: ghcr.io/pssbletrngle/packwiz-install:main
+    environment:
+      PACKWIZ_URL: http://packwiz:8080/pack.toml
+    volumes:
+      - ./.assembler/install:/data
+    depends_on: [packwiz]
+
+  server:
+    image: itzg/minecraft-server
+    tty: true
+    stdin_open: true
+    ports:
+      - "25565:25565"
+    environment:
+      EULA: "true"
+      MEMORY: 3G
+      TYPE: NEOFORGE
+      VERSION: 1.21.1
+      NEOFORGE_VERSION: 21.1.233
+      PACKWIZ_URL: http://packwiz:8080/pack.toml
+    volumes:
+      - ./.assembler/server:/data
+      - ./dump:/data/dump
+    depends_on: [packwiz]
+
+  dump:
+    extends: server
+    environment:
+      RCON_CMDS_STARTUP: |-
+        dump registry
+        stop

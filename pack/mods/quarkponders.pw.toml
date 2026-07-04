@@ -1,6 +1,6 @@
 name = "QuarkPonders"
 filename = "QuarkPonders-1.5.1_NeoForge-1.21.1.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/JY7his81/versions/9ptDs4Is/QuarkPonders-1.5.1_NeoForge-1.21.1.jar"

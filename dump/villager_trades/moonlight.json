@@ -1,0 +1,6 @@
+[
+  "moonlight:no_op",
+  "moonlight:remove_all_non_data",
+  "moonlight:simple",
+  "moonlight:villager_type_variant"
+]

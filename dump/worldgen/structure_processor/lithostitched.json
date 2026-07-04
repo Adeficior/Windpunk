@@ -1,0 +1,10 @@
+[
+  "lithostitched:apply_random",
+  "lithostitched:block_swap",
+  "lithostitched:condition",
+  "lithostitched:discard_input",
+  "lithostitched:internal/unbound_reference",
+  "lithostitched:reference",
+  "lithostitched:schedule_tick",
+  "lithostitched:set_block"
+]

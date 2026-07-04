@@ -1,0 +1,10 @@
+[
+  "lithostitched:all_of",
+  "lithostitched:any_of",
+  "lithostitched:matching_biomes",
+  "lithostitched:matching_blocks",
+  "lithostitched:not",
+  "lithostitched:position",
+  "lithostitched:random_chance",
+  "lithostitched:true"
+]

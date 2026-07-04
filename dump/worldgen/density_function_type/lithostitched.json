@@ -1,0 +1,15 @@
+[
+  "lithostitched:axis",
+  "lithostitched:ceil",
+  "lithostitched:cos",
+  "lithostitched:fast_noise",
+  "lithostitched:floor",
+  "lithostitched:internal/merged",
+  "lithostitched:mix",
+  "lithostitched:original_marker",
+  "lithostitched:select",
+  "lithostitched:shift",
+  "lithostitched:sin",
+  "lithostitched:sqrt",
+  "lithostitched:wrapped_marker"
+]

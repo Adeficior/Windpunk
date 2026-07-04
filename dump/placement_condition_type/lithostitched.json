@@ -1,0 +1,13 @@
+[
+  "lithostitched:all_of",
+  "lithostitched:any_of",
+  "lithostitched:grid",
+  "lithostitched:height_filter",
+  "lithostitched:in_biome",
+  "lithostitched:multiple_of",
+  "lithostitched:not",
+  "lithostitched:offset",
+  "lithostitched:sample_density",
+  "lithostitched:sample_noise_router",
+  "lithostitched:true"
+]

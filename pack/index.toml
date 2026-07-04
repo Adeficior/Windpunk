@@ -5,48 +5,8 @@ file = "config/betterclouds-v1.json"
 hash = "c2fd1a9eeefb16fbbfdf7038e55741e30df7b61b1d5a307f07f77393ecb556c3"
 
 [[files]]
-file = "config/paxi/datapacks/structures/data/minecraft/tags/worldgen/biome/has_structure/mineshaft.json"
-hash = "56753636da1f84ed5c529341321429dc7fd63a7ed0217b2ca376276ddc77eb9a"
-
-[[files]]
-file = "config/paxi/datapacks/structures/data/minecraft/tags/worldgen/biome/has_structure/mineshaft_mesa.json"
-hash = "7c7d2cf6c59be9199c9aca66be6f7b8ee3ad7e33ce7151c0913022d511f25055"
-
-[[files]]
-file = "config/paxi/datapacks/structures/data/minecraft/tags/worldgen/biome/has_structure/stronghold.json"
-hash = "56753636da1f84ed5c529341321429dc7fd63a7ed0217b2ca376276ddc77eb9a"
-
-[[files]]
-file = "config/paxi/datapacks/structures/data/minecraft/tags/worldgen/biome/has_structure/trial_chambers.json"
-hash = "56753636da1f84ed5c529341321429dc7fd63a7ed0217b2ca376276ddc77eb9a"
-
-[[files]]
-file = "config/paxi/datapacks/structures/data/minecraft/tags/worldgen/biome/has_structure/village_desert.json"
-hash = "7c7d2cf6c59be9199c9aca66be6f7b8ee3ad7e33ce7151c0913022d511f25055"
-
-[[files]]
-file = "config/paxi/datapacks/structures/data/minecraft/tags/worldgen/biome/has_structure/village_plains.json"
-hash = "7c7d2cf6c59be9199c9aca66be6f7b8ee3ad7e33ce7151c0913022d511f25055"
-
-[[files]]
-file = "config/paxi/datapacks/structures/data/minecraft/tags/worldgen/biome/has_structure/village_savanna.json"
-hash = "7c7d2cf6c59be9199c9aca66be6f7b8ee3ad7e33ce7151c0913022d511f25055"
-
-[[files]]
-file = "config/paxi/datapacks/structures/data/minecraft/tags/worldgen/biome/has_structure/village_snowy.json"
-hash = "7c7d2cf6c59be9199c9aca66be6f7b8ee3ad7e33ce7151c0913022d511f25055"
-
-[[files]]
-file = "config/paxi/datapacks/structures/data/minecraft/tags/worldgen/biome/has_structure/village_taiga.json"
-hash = "7c7d2cf6c59be9199c9aca66be6f7b8ee3ad7e33ce7151c0913022d511f25055"
-
-[[files]]
-file = "config/paxi/datapacks/structures/data/minecraft/tags/worldgen/biome/has_structure/woodland_mansion.json"
-hash = "7c7d2cf6c59be9199c9aca66be6f7b8ee3ad7e33ce7151c0913022d511f25055"
-
-[[files]]
-file = "config/paxi/datapacks/structures/pack.mcmeta"
-hash = "995b4a1f1605d367b325e4e82d3e941fc9439bbf6e44a7fe31f9aa4d69e50f0e"
+file = "config/paxi/datapacks/generated.zip"
+hash = "c4cdfc2e227c3926d922a332b54338b7e79f89a2333684737358b688ca1c0b51"
 
 [[files]]
 file = "config/paxi/resourcepacks/lower-grass-sides.pw.toml"
@@ -265,7 +225,12 @@ metafile = true
 
 [[files]]
 file = "mods/quarkponders.pw.toml"
-hash = "13fd3f8fdaa77954a1e3e69061e66cdce63ea144b44e80116cb7314af81136c2"
+hash = "15606a3d97ced1803b6aa5e48d247a44e608d7a5352c405df343823f47f40fd7"
+metafile = true
+
+[[files]]
+file = "mods/registry-dump.pw.toml"
+hash = "fc02b6ed75e6415eebe851d7161313f5e454079bb1280db97dec9949883e6841"
 metafile = true
 
 [[files]]

@@ -1,0 +1,8 @@
+[
+  "mixed_litter:replace_textures",
+  "mixed_litter:set_ageable_texture",
+  "mixed_litter:set_mooshroom_mushroom",
+  "mixed_litter:set_sheep_fur_layer",
+  "mixed_litter:set_slime_outer_layer",
+  "mixed_litter:set_texture"
+]

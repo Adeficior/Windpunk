@@ -23,6 +23,8 @@ jobs:
       runs-on: ubuntu-latest
       steps:
          - uses: actions/checkout@v6
+           with:
+              submodules: true
 
          - name: Log in to the Container registry
            uses: docker/login-action@v4
@@ -46,16 +48,15 @@ jobs:
            uses: oven-sh/setup-bun@v2
 
          - name: Update release properties
-           run: bun run packages/scripts/prerelease.ts
+           run: bun run assemble
            env:
               GIT_COMMIT_SHA: ${{ github.sha }}
 
          - name: Build and push Docker image
            uses: docker/build-push-action@v6
            with:
-              context: .
+              context: pack
+              file: ../Dockerfile
               push: true
               tags: ${{ steps.meta.outputs.tags }}
               labels: ${{ steps.meta.outputs.labels }}
-              build-args: |
-                 version=${{ env.RELEASE_VERSION }}

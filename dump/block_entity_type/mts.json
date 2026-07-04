@@ -1,0 +1,6 @@
+[
+  "mts:builder_base",
+  "mts:builder_charger",
+  "mts:builder_fluidtank",
+  "mts:builder_inventory"
+]

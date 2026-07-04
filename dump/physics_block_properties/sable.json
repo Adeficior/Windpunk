@@ -1,0 +1,10 @@
+[
+  "sable:floating_material",
+  "sable:floating_scale",
+  "sable:fragile",
+  "sable:friction",
+  "sable:inertia",
+  "sable:mass",
+  "sable:restitution",
+  "sable:volume"
+]

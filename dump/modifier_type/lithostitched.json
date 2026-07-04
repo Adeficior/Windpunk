@@ -1,0 +1,22 @@
+[
+  "lithostitched:add_biome_spawns",
+  "lithostitched:add_features",
+  "lithostitched:add_processor_list_processors",
+  "lithostitched:add_structure_set_entries",
+  "lithostitched:add_structure_templates",
+  "lithostitched:add_surface_rule",
+  "lithostitched:add_template_pool_elements",
+  "lithostitched:internal/compile_raw_templates",
+  "lithostitched:no_op",
+  "lithostitched:remove_biome_spawns",
+  "lithostitched:remove_features",
+  "lithostitched:remove_structure_set_entries",
+  "lithostitched:replace_climate",
+  "lithostitched:replace_effects",
+  "lithostitched:set_pool_aliases",
+  "lithostitched:set_pool_element_processors",
+  "lithostitched:set_structure_spawn_condition",
+  "lithostitched:stack_feature",
+  "lithostitched:wrap_density_function",
+  "lithostitched:wrap_noise_router"
+]
