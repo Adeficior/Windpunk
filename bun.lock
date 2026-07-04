@@ -5,7 +5,7 @@
     "": {
       "name": "windpunk",
       "dependencies": {
-        "@adeficior/assembler": "^1.0.0-rc.8",
+        "@adeficior/assembler": "^1.0.0-rc.9",
       },
       "devDependencies": {
         "@types/bun": "latest",
@@ -18,7 +18,7 @@
     },
   },
   "packages": {
-    "@adeficior/assembler": ["@adeficior/assembler@1.0.0-rc.8", "", { "dependencies": { "@adeficior/data-modifier": "^1.0.0-rc.40", "arg": "^5.0.2", "winston": "^3.19.0" }, "bin": { "assembler": "dist/cli.js" } }, "sha512-qjucXQjs6+2M0e6XqTW+0VCT1/V0QK2qvdg3avyoB3LriypOZx11b+rJP5QNmoJFcjiGq+4cvhYyPl+0RgPjnA=="],
+    "@adeficior/assembler": ["@adeficior/assembler@1.0.0-rc.9", "", { "dependencies": { "@adeficior/data-modifier": "^1.0.0-rc.40", "arg": "^5.0.2", "winston": "^3.19.0" }, "bin": { "assembler": "dist/cli.js" } }, "sha512-O9z9MRsdWx1jBWv30BVDziiY5H0Jm5D8Gvri2Q5Q7VET37YajbluC2ztwRCv2hesKuxt2EWboCgTJA4JrUbBtg=="],
 
     "@adeficior/data-modifier": ["@adeficior/data-modifier@1.0.0-rc.40", "", { "dependencies": { "@adeficior/resource-merger": "^2.0.0-rc.15", "arg": "^5.0.2", "chalk": "^5.6.2", "command-line-usage": "^7.0.4", "json5": "^2.2.3", "lodash-es": "^4.18.1", "minimatch": "^5.1.9", "node-stream-zip": "^1.15.0", "prettier": "^3.8.4", "prismarine-nbt": "^2.8.0", "zod": "^4.4.3" }, "bin": { "datamod": "dist/cli/run.js" } }, "sha512-PFvlb2qVJxE51jcGkSSMU4zcVVRl0ERjs10a9Y4dwthMa6bc8nC7Y48dRA7zB34TpG1dAiozhtXOoJgbZUWzVA=="],
 
