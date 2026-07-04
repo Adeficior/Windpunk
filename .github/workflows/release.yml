@@ -47,10 +47,11 @@ jobs:
          - name: Setup Bun
            uses: oven-sh/setup-bun@v2
 
+         - name: Install Dependencies
+           run: bun install --frozen-lockfile
+
          - name: Update release properties
            run: bun run assemble
-           env:
-              GIT_COMMIT_SHA: ${{ github.sha }}
 
          - name: Build and push Docker image
            uses: docker/build-push-action@v6
