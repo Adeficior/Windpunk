@@ -20,6 +20,10 @@ Contains the [Packwiz](https://packwiz.infra.link/) pack files.
 
 Contains datagen modules that are using [@adeficior/data-modifier](https://github.com/Adeficior/DataModifier).
 
+### `assets`
+
+icons, logos and other modpack branding
+
 ### `dump`
 
 Contains the registriy entries exported using [Registry Dump](https://modrinth.com/mod/registry-dump).
