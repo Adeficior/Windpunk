@@ -15,34 +15,12 @@ env:
    RELEASE_VERSION: 0.0.${{ github.run_number }}
 
 jobs:
-   docker:
-      permissions:
-         contents: read
-         packages: write
-
+   assemble:
       runs-on: ubuntu-latest
       steps:
          - uses: actions/checkout@v6
            with:
               submodules: true
-
-         - name: Log in to the Container registry
-           uses: docker/login-action@v4
-           with:
-              registry: ${{ env.REGISTRY }}
-              username: ${{ github.actor }}
-              password: ${{ secrets.GITHUB_TOKEN }}
-
-         - name: Extract metadata (tags, labels) for Docker
-           id: meta
-           uses: docker/metadata-action@v5
-           with:
-              images: ${{ env.REGISTRY }}/${{ env.GITHUB_REPO }}
-              tags: |
-                 type=raw,value=latest
-                 type=raw,value=stable,enable=${{ github.event_name == 'release' }}
-                 type=semver,pattern={{version}},enable=${{ github.event_name == 'release' }}
-                 type=sha,priority=250,enable=${{ github.event_name != 'release' }}
 
          - name: Setup Bun
            uses: oven-sh/setup-bun@v2
@@ -63,14 +41,49 @@ jobs:
            if: steps.downloads-cache.outputs.cache-hit != 'true'
            run: bun run download
 
-         - name: Update release properties
+         - name: Assemble modpack
            run: bun run assemble
+
+         - name: Upload assembled pack
+           uses: actions/upload-artifact@v4
+           with:
+              name: pack
+              path: pack
+
+   docker:
+      runs-on: ubuntu-latest
+      steps:
+         - uses: actions/checkout@v6
+
+         - name: Download assembled pack
+           uses: actions/download-artifact@v5
+           with:
+              name: pack
+              path: assembled
+
+         - name: Log in to the Container registry
+           uses: docker/login-action@v4
+           with:
+              registry: ${{ env.REGISTRY }}
+              username: ${{ github.actor }}
+              password: ${{ secrets.GITHUB_TOKEN }}
+
+         - name: Extract metadata (tags, labels) for Docker
+           id: meta
+           uses: docker/metadata-action@v5
+           with:
+              images: ${{ env.REGISTRY }}/${{ env.GITHUB_REPO }}
+              tags: |
+                 type=raw,value=latest
+                 type=raw,value=stable,enable=${{ github.event_name == 'release' }}
+                 type=semver,pattern={{version}},enable=${{ github.event_name == 'release' }}
+                 type=sha,priority=250,enable=${{ github.event_name != 'release' }}
 
          - name: Build and push Docker image
            uses: docker/build-push-action@v6
            with:
-              context: pack
-              file: ../Dockerfile
+              context: assembled
+              file: Dockerfile
               push: true
               tags: ${{ steps.meta.outputs.tags }}
               labels: ${{ steps.meta.outputs.labels }}
