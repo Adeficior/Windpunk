@@ -10,6 +10,10 @@ hash = "276d208f2e3ac1a41fb8641735b9ce5c6132387686bf184ab479400172748eb7"
 metafile = true
 
 [[files]]
+file = "config/quark-common.toml"
+hash = "6cd361293105ca56ed7319679ae8ae9f40fcc41ed428d7e87f2b9cec3dc7022b"
+
+[[files]]
 file = "mods/aero_cam_sync.pw.toml"
 hash = "cdd0d1e23e218d806150e0706ff70d470dfae69f58a5655de48067a61625fab9"
 metafile = true
