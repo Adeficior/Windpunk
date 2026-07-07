@@ -8,10 +8,11 @@
     "assemble": "assembler --generate --merge",
     "download": "docker compose up installer --build --abort-on-container-exit",
     "dump": "docker compose up dump --build --abort-on-container-exit",
-    "prepare": "assembler --prepare"
+    "upload": "assembler publish --pack-dir assembled",
+    "prepare": "assembler prepare"
   },
   "dependencies": {
-    "@adeficior/assembler": "^1.0.0-rc.10"
+    "@adeficior/assembler": "^1.0.0-rc.11"
   },
   "devDependencies": {
     "@types/bun": "latest",

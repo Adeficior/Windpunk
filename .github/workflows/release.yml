@@ -88,3 +88,37 @@ jobs:
               push: true
               tags: ${{ steps.meta.outputs.tags }}
               labels: ${{ steps.meta.outputs.labels }}
+
+   modrinth:
+      runs-on: ubuntu-latest
+      needs: [assemble]
+      steps:
+         - uses: actions/checkout@v6
+
+         - name: Setup Bun
+           uses: oven-sh/setup-bun@v2
+
+         - name: Install Dependencies
+           run: bun install --frozen-lockfile
+
+         - uses: actions/setup-go@v5
+
+         - name: Install packwiz
+           run: go install github.com/packwiz/packwiz@latest
+
+         - name: Download assembled pack
+           uses: actions/download-artifact@v5
+           with:
+              name: pack
+              path: assembled
+
+         - name: Refresh packwiz
+           run: packwiz --pack-file assembled/pack.toml refresh --build
+
+         - name: Export modpack
+           run: packwiz --pack-file assembled/pack.toml mr export
+
+         - name: Upload to modrinth
+           run: bun run upload --project-id ${{ secrets.MODRINTH_PROJECT_ID }}
+           env:
+              MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
