@@ -20,6 +20,10 @@ Contains the [Packwiz](https://packwiz.infra.link/) pack files.
 
 Contains datagen modules that are using [@adeficior/data-modifier](https://github.com/Adeficior/DataModifier).
 
+### `resources`
+
+static resources that will be included in the pack as a data- or resourcepack
+
 ### `assets`
 
 icons, logos and other modpack branding
