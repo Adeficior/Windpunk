@@ -11,14 +11,10 @@
     "prepare": "assembler --prepare"
   },
   "dependencies": {
-    "@adeficior/assembler": "^1.0.0-rc.9"
+    "@adeficior/assembler": "^1.0.0-rc.10"
   },
   "devDependencies": {
     "@types/bun": "latest",
     "typescript": "^5"
-  },
-  "peerDependencies": {
-    "@adeficior/pack-resolver": "*",
-    "@adeficior/data-modifier": "*"
   }
 }

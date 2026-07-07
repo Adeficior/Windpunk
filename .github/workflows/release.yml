@@ -50,7 +50,17 @@ jobs:
          - name: Install Dependencies
            run: bun install --frozen-lockfile
 
+         - name: Cache downloads
+           id: downloads-cache
+           uses: actions/cache@v6
+           with:
+              path: .assembler/install
+              key: mods-${{ hashFiles('pack/index.toml') }}
+              restore-keys: |
+                 mods-
+
          - name: Download mods
+           if: steps.downloads-cache.outputs.cache-hit != 'true'
            run: bun run download
 
          - name: Update release properties
