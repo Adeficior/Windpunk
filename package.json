@@ -1,5 +1,5 @@
 {
-  "name": "windpunk",
+  "name": "@adeficior/windpunk",
   "module": "index.ts",
   "type": "module",
   "private": true,
@@ -12,7 +12,7 @@
     "prepare": "assembler prepare"
   },
   "dependencies": {
-    "@adeficior/assembler": "^1.0.0-rc.21"
+    "@adeficior/assembler": "^1.0.0-rc.23"
   },
   "devDependencies": {
     "@types/bun": "latest",

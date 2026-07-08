@@ -1,5 +1,3 @@
-FROM getchoo/packwiz-serve:latest
+FROM ghcr.io/adeficior/packwiz-server:latest
 
-EXPOSE 8080
-
-COPY . /data
+COPY . /pack
