@@ -44,6 +44,9 @@ jobs:
       - name: Assemble modpack
         run: bun run assemble
 
+      - name: Refresh packwiz
+        run: packwiz --pack-file pack/pack.toml refresh --build
+
       - name: Upload assembled pack
         uses: actions/upload-artifact@v7
         with:
@@ -111,9 +114,6 @@ jobs:
         with:
           name: pack
           path: assembled
-
-      - name: Refresh packwiz
-        run: packwiz --pack-file assembled/pack.toml refresh --build
 
       - name: Export modpack
         run: packwiz --pack-file assembled/pack.toml mr export
