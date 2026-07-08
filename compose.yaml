@@ -7,7 +7,7 @@ services:
       dockerfile: ../Dockerfile
 
   installer:
-    image: ghcr.io/pssbletrngle/packwiz-install:main
+    image: ghcr.io/adeficior/packwiz-installer:latest
     environment:
       PACKWIZ_URL: http://packwiz:8080/pack.toml
     volumes:

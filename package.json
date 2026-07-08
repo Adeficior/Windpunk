@@ -1,5 +1,5 @@
 {
-  "name": "windpunk",
+  "name": "@adeficior/windpunk",
   "module": "index.ts",
   "type": "module",
   "private": true,
