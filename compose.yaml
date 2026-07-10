@@ -9,7 +9,7 @@ services:
   installer:
     image: ghcr.io/adeficior/packwiz-installer:latest
     environment:
-      PACKWIZ_URL: http://packwiz:8080/pack.toml
+      PACKWIZ_URL: http://packwiz
     volumes:
       - ./.assembler/install:/data
     depends_on: [packwiz]
@@ -26,7 +26,7 @@ services:
       TYPE: NEOFORGE
       VERSION: 1.21.1
       NEOFORGE_VERSION: 21.1.233
-      PACKWIZ_URL: http://packwiz:8080/pack.toml
+      PACKWIZ_URL: http://packwiz
     volumes:
       - ./.assembler/server:/data
       - ./dump:/data/dump
