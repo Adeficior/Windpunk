@@ -1,4 +1,4 @@
-# Windpunk Modpack
+# Windpunk Modpack <!-- modrinth_exclude.start --> <img src="assets/icon.svg" align="right" height="64" />
 
 Uses [@adeficior/assembler](https://github.com/Adeficior/Assembler)
 

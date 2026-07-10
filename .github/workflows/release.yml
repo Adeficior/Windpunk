@@ -1,124 +1,122 @@
 name: Release
 
 on:
-   workflow_dispatch:
-   push:
-      branches: [main]
+  workflow_dispatch:
+  push:
+    branches: [main]
 
 concurrency:
-   group: ${{ github.workflow }}-${{ github.ref }}
-   cancel-in-progress: true
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 env:
-   REGISTRY: ghcr.io
-   GITHUB_REPO: ${{ github.repository }}
-   RELEASE_VERSION: 0.0.${{ github.run_number }}
+  REGISTRY: ghcr.io
+  GITHUB_REPO: ${{ github.repository }}
+  RELEASE_VERSION: 0.0.${{ github.run_number }}
 
 jobs:
-   assemble:
-      runs-on: ubuntu-latest
-      steps:
-         - uses: actions/checkout@v6
-           with:
-              submodules: true
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          submodules: true
 
-         - name: Setup Bun
-           uses: oven-sh/setup-bun@v2
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
 
-         - name: Install Dependencies
-           run: bun install --frozen-lockfile
+      - name: Install Dependencies
+        run: bun install --frozen-lockfile
 
-         - name: Cache downloads
-           id: downloads-cache
-           uses: actions/cache@v6
-           with:
-              path: .assembler/install
-              key: mods-${{ hashFiles('pack/index.toml') }}
-              restore-keys: |
-                 mods-
+      - name: Cache downloads
+        id: downloads-cache
+        uses: actions/cache@v6
+        with:
+          path: .assembler/install
+          key: mods-${{ hashFiles('pack/index.toml') }}
+          restore-keys: |
+            mods-
 
-         - name: Download mods
-           if: steps.downloads-cache.outputs.cache-hit != 'true'
-           run: bun run download
+      - name: Download mods
+        if: steps.downloads-cache.outputs.cache-hit != 'true'
+        run: bun run download
 
-         - name: Assemble modpack
-           run: bun run assemble
+      - name: Assemble modpack
+        run: bun run assemble
 
-         - name: Upload assembled pack
-           uses: actions/upload-artifact@v4
-           with:
-              name: pack
-              path: pack
+      - name: Refresh packwiz
+        run: packwiz --pack-file .assembler/pack/pack.toml refresh --build
 
-   docker:
-      runs-on: ubuntu-latest
-      needs: [assemble]
-      steps:
-         - uses: actions/checkout@v6
+      - name: Upload assembled pack
+        uses: actions/upload-artifact@v7
+        with:
+          name: pack
+          path: .assembler/pack
 
-         - name: Download assembled pack
-           uses: actions/download-artifact@v5
-           with:
-              name: pack
-              path: assembled
+  docker:
+    runs-on: ubuntu-latest
+    needs: [assemble]
+    steps:
+      - uses: actions/checkout@v6
 
-         - name: Log in to the Container registry
-           uses: docker/login-action@v4
-           with:
-              registry: ${{ env.REGISTRY }}
-              username: ${{ github.actor }}
-              password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Download assembled pack
+        uses: actions/download-artifact@v8
+        with:
+          name: pack
 
-         - name: Extract metadata (tags, labels) for Docker
-           id: meta
-           uses: docker/metadata-action@v5
-           with:
-              images: ${{ env.REGISTRY }}/${{ env.GITHUB_REPO }}
-              tags: |
-                 type=raw,value=latest
-                 type=raw,value=stable,enable=${{ github.event_name == 'release' }}
-                 type=semver,pattern={{version}},enable=${{ github.event_name == 'release' }}
-                 type=sha,priority=250,enable=${{ github.event_name != 'release' }}
+      - name: Log in to the Container registry
+        uses: docker/login-action@v4
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
 
-         - name: Build and push Docker image
-           uses: docker/build-push-action@v6
-           with:
-              context: assembled
-              file: Dockerfile
-              push: true
-              tags: ${{ steps.meta.outputs.tags }}
-              labels: ${{ steps.meta.outputs.labels }}
+      - name: Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.GITHUB_REPO }}
+          tags: |
+            type=raw,value=latest
+            type=raw,value=stable,enable=${{ github.event_name == 'release' }}
+            type=semver,pattern={{version}},enable=${{ github.event_name == 'release' }}
+            type=sha,priority=250,enable=${{ github.event_name != 'release' }}
 
-   modrinth:
-      runs-on: ubuntu-latest
-      needs: [assemble]
-      steps:
-         - uses: actions/checkout@v6
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v6
+        with:
+          context: .assembler/pack
+          file: Dockerfile
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
 
-         - name: Setup Bun
-           uses: oven-sh/setup-bun@v2
+  modrinth:
+    runs-on: ubuntu-latest
+    needs: [assemble]
+    steps:
+      - uses: actions/checkout@v6
 
-         - name: Install Dependencies
-           run: bun install --frozen-lockfile
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
 
-         - uses: actions/setup-go@v5
+      - name: Install Dependencies
+        run: bun install --frozen-lockfile
 
-         - name: Install packwiz
-           run: go install github.com/packwiz/packwiz@latest
+      - uses: actions/setup-go@v5
 
-         - name: Download assembled pack
-           uses: actions/download-artifact@v5
-           with:
-              name: pack
-              path: assembled
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
 
-         - name: Refresh packwiz
-           run: packwiz --pack-file assembled/pack.toml refresh --build
+      - name: Download assembled pack
+        uses: actions/download-artifact@v5
+        with:
+          name: pack
 
-         - name: Export modpack
-           run: packwiz --pack-file assembled/pack.toml mr export
+      - name: Export modpack
+        run: packwiz --pack-file .assembler/pack/pack.toml mr export
 
-         - name: Upload to modrinth
-           run: bun run upload --project-id ${{ secrets.MODRINTH_PROJECT_ID }}
-           env:
-              MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+      - name: Upload to modrinth
+        run: bun run upload --project-id ${{ secrets.MODRINTH_PROJECT_ID }}
+        env:
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}

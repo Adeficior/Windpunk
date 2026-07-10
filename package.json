@@ -4,15 +4,15 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "serve": "packwiz serve --pack-file pack/pack.toml",
+    "serve": "packwiz serve --pack-file .assembler/pack/pack.toml",
     "assemble": "assembler --generate --merge",
     "download": "docker compose up installer --build --abort-on-container-exit",
     "dump": "docker compose up dump --build --abort-on-container-exit",
-    "upload": "assembler publish --pack-dir assembled",
+    "upload": "assembler publish",
     "prepare": "assembler prepare"
   },
   "dependencies": {
-    "@adeficior/assembler": "^1.0.0-rc.23"
+    "@adeficior/assembler": "^1.0.0-rc.26"
   },
   "devDependencies": {
     "@types/bun": "latest",
