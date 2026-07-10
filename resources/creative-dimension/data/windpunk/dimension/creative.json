@@ -1,0 +1,34 @@
+{
+   "type": "windpunk:creative",
+   "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+         "biome": "minecraft:plains",
+         "lakes": false,
+         "features": false,
+         "layers": [
+            {
+               "block": "minecraft:bedrock",
+               "height": 1
+            },
+            {
+               "block": "minecraft:deepslate",
+               "height": 63
+            },
+            {
+               "block": "minecraft:stone",
+               "height": 56
+            },
+            {
+               "block": "minecraft:dirt",
+               "height": 6
+            },
+            {
+               "block": "minecraft:grass_block",
+               "height": 1
+            }
+         ],
+         "structure_overrides": []
+      }
+   }
+}

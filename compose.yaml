@@ -3,8 +3,9 @@ name: windpunk-installer
 services:
   packwiz:
     build:
-      context: pack
+      context: ./.assembler/pack
       dockerfile: ../Dockerfile
+    ports: [8080:8080]
 
   installer:
     image: ghcr.io/adeficior/packwiz-installer:latest
