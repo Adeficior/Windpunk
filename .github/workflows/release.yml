@@ -68,6 +68,7 @@ jobs:
         uses: actions/download-artifact@v8
         with:
           name: pack
+          path: .assembler/pack
 
       - name: Log in to the Container registry
         uses: docker/login-action@v4
@@ -117,6 +118,7 @@ jobs:
         uses: actions/download-artifact@v5
         with:
           name: pack
+          path: .assembler/pack
 
       - name: Export modpack
         run: packwiz --pack-file .assembler/pack/pack.toml mr export
