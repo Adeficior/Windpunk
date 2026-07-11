@@ -1,0 +1,26 @@
+---
+
+---
+
+<div id="graph"></div>
+
+<script>
+  import { Network } from "vis-network";
+  import edges from "../graph/edges.json";
+  import nodes from "../graph/nodes.json";
+
+  const container = document.getElementById("graph");
+
+  if (container) {
+    const network = new Network(container, { nodes, edges }, {});
+  } else {
+    console.warn("unable to find graph container");
+  }
+</script>
+
+<style scoped>
+  #graph {
+    height: 1000px;
+    width: 1000px;
+  }
+</style>
