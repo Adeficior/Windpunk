@@ -25,7 +25,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "ca7ccbfc12a2103e8a155731eb03f94b243cc07fe9fae2f22c9ab04656109544"
+hash = "4500f5accff7206412fd9c17e181567739192833a3f70f0bf54d63820e378d44"
 metafile = true
 
 [[files]]
@@ -71,6 +71,11 @@ metafile = true
 [[files]]
 file = "mods/coastal-waves.pw.toml"
 hash = "7543f3dbc193d98b67b760b4e7a7a5f5a8bbd58c66d4ebcb13d6729eb6017cff"
+metafile = true
+
+[[files]]
+file = "mods/compost.pw.toml"
+hash = "99541462e04c6df5979b2bde7c64c73fa5c925aa09f1b9bada878c146f0fa1d5"
 metafile = true
 
 [[files]]
@@ -276,6 +281,16 @@ metafile = true
 [[files]]
 file = "mods/sunken-spires.pw.toml"
 hash = "bb55a451673c82a1298a2c2394179ac0c8b75fea012117ba942e3bef72c8fcd6"
+metafile = true
+
+[[files]]
+file = "mods/supplementaries-squared.pw.toml"
+hash = "46280c9487633e3bd1dd7bb24ccc4076058b2602d7dc2906f96509527346cf24"
+metafile = true
+
+[[files]]
+file = "mods/supplementaries.pw.toml"
+hash = "f4362615b463f2e68e4a9573720ef19d3c483e2c035981791b5834082a3e56be"
 metafile = true
 
 [[files]]
