@@ -12,7 +12,7 @@
     "prepare": "husky && assembler prepare"
   },
   "dependencies": {
-    "@adeficior/assembler": "^1.0.0-rc.27"
+    "@adeficior/assembler": "^1.0.0-rc.31"
   },
   "devDependencies": {
     "@types/bun": "latest",
