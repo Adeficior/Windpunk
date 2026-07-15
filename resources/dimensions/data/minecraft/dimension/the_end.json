@@ -6,9 +6,9 @@
          "type": "minecraft:multi_noise",
          "biomes": [
             {
-               "biome": "minecraft:end_midlands",
+               "biome": "minecraft:end_highlands",
                "parameters": {
-                  "temperature": 1,
+                  "temperature": -1,
                   "humidity": 0,
                   "continentalness": 0,
                   "erosion": 0,
@@ -18,9 +18,21 @@
                }
             },
             {
-               "biome": "minecraft:end_highlands",
+               "biome": "minecraft:end_midlands",
                "parameters": {
                   "temperature": 0,
+                  "humidity": 0,
+                  "continentalness": 0,
+                  "erosion": 0,
+                  "weirdness": 0,
+                  "depth": 0,
+                  "offset": 0
+               }
+            },
+            {
+               "biome": "minecraft:end_barrens",
+               "parameters": {
+                  "temperature": 0.3,
                   "humidity": 0,
                   "continentalness": 0,
                   "erosion": 0,

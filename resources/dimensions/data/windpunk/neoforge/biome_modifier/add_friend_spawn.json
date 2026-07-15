@@ -1,0 +1,16 @@
+{
+   "neoforge:conditions": [
+      {
+         "type": "neoforge:mod_loaded",
+         "modid": "creaturefeature"
+      }
+   ],
+   "type": "neoforge:add_spawns",
+   "biomes": "#c:is_end",
+   "spawners": {
+      "type": "creaturefeature:friend",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 1
+   }
+}

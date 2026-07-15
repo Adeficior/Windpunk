@@ -99,6 +99,11 @@ hash = "e66c8649557c5df5d660e64b635576f8aa836c05b14e915b8f4ae119c704d7bf"
 metafile = true
 
 [[files]]
+file = "mods/creature-feature.pw.toml"
+hash = "e73ae02057ed4b642179b48244d226233cc15d61881e44b43b0fe54cdf6e8248"
+metafile = true
+
+[[files]]
 file = "mods/ding.pw.toml"
 hash = "54c0985498a40c7b9c63e336c11c1c48770dbfdf50c07dff988c1b086d26ba2f"
 metafile = true
@@ -106,6 +111,11 @@ metafile = true
 [[files]]
 file = "mods/distanthorizons.pw.toml"
 hash = "4510ff91153d92f949c2e70e6df356f26b6f1438bc05a98b88463de88a5166a7"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-end-castle-standalone.pw.toml"
+hash = "d94d9d6b8fcd656ed65e886c3b895dade1130661e0eaeb6b22162060a8dbf331"
 metafile = true
 
 [[files]]

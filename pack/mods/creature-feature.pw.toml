@@ -1,0 +1,13 @@
+name = "Creature Feature"
+filename = "creaturefeature-1.1.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7nEkcq0F/versions/Gymws4f9/creaturefeature-1.1.3.jar"
+hash-format = "sha512"
+hash = "b982eb665f589c15d7befe59c1a1e1106b6b64a8cb53c087e8b5199017cc57cc37a223a61a7dec963e50f0a25b3d64663f758530db6a30e7eb555591404db0f0"
+
+[update]
+[update.modrinth]
+mod-id = "7nEkcq0F"
+version = "Gymws4f9"
