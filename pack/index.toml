@@ -319,6 +319,11 @@ hash = "f4362615b463f2e68e4a9573720ef19d3c483e2c035981791b5834082a3e56be"
 metafile = true
 
 [[files]]
+file = "mods/the-lost-cities.pw.toml"
+hash = "846d8a67b0c69ebc78ade5c37efb2f80e9e590555d70c97696946f9f1658b1ee"
+metafile = true
+
+[[files]]
 file = "mods/tolerable-creepers.pw.toml"
 hash = "9ea9536d26d15e6035d181c48c0f32cd37f08b7cfacd9b204abcc214ae5d987e"
 metafile = true

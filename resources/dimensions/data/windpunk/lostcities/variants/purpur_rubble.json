@@ -1,0 +1,20 @@
+{
+   "blocks": [
+      {
+         "random": 10,
+         "block": "minecraft:purpur_block"
+      },
+      {
+         "random": 8,
+         "block": "minecraft:purpur_stairs"
+      },
+      {
+         "random": 10,
+         "block": "minecraft:purpur_slab"
+      },
+      {
+         "random": 1000,
+         "block": "minecraft:end_stone"
+      }
+   ]
+}
