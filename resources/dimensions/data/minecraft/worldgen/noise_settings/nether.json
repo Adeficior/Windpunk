@@ -51,7 +51,7 @@
       "vein_toggle": 0
    },
    "ore_veins_enabled": false,
-   "sea_level": 64,
+   "sea_level": 48,
    "spawn_target": [],
    "surface_rule": {
       "type": "minecraft:sequence",
@@ -372,7 +372,7 @@
                            "type": "minecraft:y_above",
                            "add_stone_depth": false,
                            "anchor": {
-                              "absolute": 32
+                              "absolute": 48
                            },
                            "surface_depth_multiplier": 0
                         }
@@ -418,7 +418,7 @@
                               "type": "minecraft:y_above",
                               "add_stone_depth": false,
                               "anchor": {
-                                 "absolute": 31
+                                 "absolute": 47
                               },
                               "surface_depth_multiplier": 0
                            },
@@ -476,7 +476,7 @@
                               "type": "minecraft:y_above",
                               "add_stone_depth": false,
                               "anchor": {
-                                 "absolute": 31
+                                 "absolute": 47
                               },
                               "surface_depth_multiplier": 0
                            },
@@ -608,7 +608,7 @@
                            "type": "minecraft:y_above",
                            "add_stone_depth": false,
                            "anchor": {
-                              "absolute": 31
+                              "absolute": 47
                            },
                            "surface_depth_multiplier": 0
                         },
@@ -642,7 +642,7 @@
                                           "type": "minecraft:y_above",
                                           "add_stone_depth": false,
                                           "anchor": {
-                                             "absolute": 32
+                                             "absolute": 48
                                           },
                                           "surface_depth_multiplier": 0
                                        },
