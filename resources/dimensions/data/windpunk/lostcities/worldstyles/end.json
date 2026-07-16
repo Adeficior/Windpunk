@@ -11,6 +11,16 @@
       "weightnone": 20,
       "list": []
    },
+   "citybiomemultipliers": [
+      {
+         "multiplier": 0,
+         "biomes": {
+            "excluding": [
+               "windpunk:abandoned_urban"
+            ]
+         }
+      }
+   ],
    "citystyles": [
       {
          "factor": 1,

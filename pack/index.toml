@@ -5,6 +5,14 @@ file = "config/betterclouds-v1.json"
 hash = "c2fd1a9eeefb16fbbfdf7038e55741e30df7b61b1d5a307f07f77393ecb556c3"
 
 [[files]]
+file = "config/lostcities/common.toml"
+hash = "35c61fbdbbc3ecefa3eb8a1e709e3ad0c43140cf3b82c77fbc2db7ccd1ffec05"
+
+[[files]]
+file = "config/lostcities/profiles/end.json"
+hash = "18730ea5acf134424c1e79ad44f2ab10a90aed74bad19dba9502100d77452142"
+
+[[files]]
 file = "config/paxi/resourcepacks/lower-grass-sides.pw.toml"
 hash = "276d208f2e3ac1a41fb8641735b9ce5c6132387686bf184ab479400172748eb7"
 metafile = true
@@ -126,6 +134,11 @@ metafile = true
 [[files]]
 file = "mods/dye-the-world.pw.toml"
 hash = "5b26083db163b2ed4b748f1851d5bb50ead944360f7bdf84a91ea6082f3aad29"
+metafile = true
+
+[[files]]
+file = "mods/enderscape.pw.toml"
+hash = "dee101b4695257c023df362ae0e99f9ed7ca0f43bf943016f398e301b1678be4"
 metafile = true
 
 [[files]]
@@ -331,6 +344,11 @@ metafile = true
 [[files]]
 file = "mods/tree-physics.pw.toml"
 hash = "07990f45f4bd9cfbf7d1362c5852a568e2fa3c364b44939a58205d277dac3fec"
+metafile = true
+
+[[files]]
+file = "mods/trimmed.pw.toml"
+hash = "28db7535fae8c33b5547fefefdd88ead89c7edd7c1f330a5f370dca76e6706c9"
 metafile = true
 
 [[files]]

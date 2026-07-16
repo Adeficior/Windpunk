@@ -2,7 +2,7 @@
    "type": "minecraft:cache_2d",
    "argument": {
       "type": "minecraft:noise",
-      "noise": "windpunk:end/temperature",
+      "noise": "windpunk:end/humidity",
       "xz_scale": 1,
       "y_scale": 1
    }

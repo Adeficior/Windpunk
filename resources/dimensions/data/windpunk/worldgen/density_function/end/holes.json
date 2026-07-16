@@ -1,0 +1,14 @@
+{
+   "type": "minecraft:clamp",
+   "input": {
+      "type": "minecraft:add",
+      "argument1": 0.1,
+      "argument2": {
+         "type": "minecraft:mul",
+         "argument1": 0.5,
+         "argument2": "windpunk:end/humidity"
+      }
+   },
+   "min": 0,
+   "max": 1
+}

@@ -1,11 +1,15 @@
 {
-   "type": "minecraft:add",
-   "argument1": {
-      "type": "minecraft:y_clamped_gradient",
-      "from_y": 64,
-      "to_y": 96,
-      "from_value": 1,
-      "to_value": -1
-   },
-   "argument2": "windpunk:end/temperature"
+   "type": "minecraft:mul",
+   "argument1": "windpunk:end/holes",
+   "argument2": {
+      "type": "minecraft:add",
+      "argument1": {
+         "type": "minecraft:y_clamped_gradient",
+         "from_y": 64,
+         "to_y": 96,
+         "from_value": 1,
+         "to_value": -1
+      },
+      "argument2": "windpunk:end/temperature"
+   }
 }
