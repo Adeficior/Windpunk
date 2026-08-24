@@ -1,3 +1,5 @@
 [
-  "blueprint:originals"
+  "blueprint:overworld",
+  "blueprint:the_end",
+  "blueprint:the_nether"
 ]

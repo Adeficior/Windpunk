@@ -1,0 +1,16 @@
+[
+  "enderscape:drifter_find_home_cooldown",
+  "enderscape:drifter_jelly_change_cooldown",
+  "enderscape:drifter_nearest_intimidator",
+  "enderscape:rubblemite_dash_on_cooldown",
+  "enderscape:rubblemite_hiding_duration",
+  "enderscape:rubblemite_hiding_on_cooldown",
+  "enderscape:rubblemite_nearest_enemies",
+  "enderscape:rubblemite_nearest_visible_enemy",
+  "enderscape:rubblemite_nearest_visible_targetable_enemy",
+  "enderscape:rustle_food",
+  "enderscape:rustle_hair_regrowth_cooldown",
+  "enderscape:rustle_sleep_ticks",
+  "enderscape:rustle_sleeping_on_cooldown",
+  "enderscape:rustle_sleeping_spot"
+]

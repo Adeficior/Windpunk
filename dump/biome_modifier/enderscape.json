@@ -1,0 +1,12 @@
+[
+  "enderscape:add_enderscape_chorus_plants",
+  "enderscape:add_enderscape_chorus_sprouts",
+  "enderscape:add_enderscape_islands",
+  "enderscape:add_global_features",
+  "enderscape:add_new_barens_features",
+  "enderscape:add_new_barens_spawns",
+  "enderscape:modify_end_ambience",
+  "enderscape:remove_minecraft_chorus_plants",
+  "enderscape:remove_minecraft_end_gateways",
+  "enderscape:remove_small_end_islands"
+]

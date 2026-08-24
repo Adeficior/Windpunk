@@ -1,0 +1,20 @@
+[
+  "nova_structures:end_castle/boat",
+  "nova_structures:end_castle/bridge_fallback",
+  "nova_structures:end_castle/chest",
+  "nova_structures:end_castle/chorus_plant",
+  "nova_structures:end_castle/citty",
+  "nova_structures:end_castle/citty/house_content",
+  "nova_structures:end_castle/citty_bridge_only",
+  "nova_structures:end_castle/docks",
+  "nova_structures:end_castle/docks_fallback",
+  "nova_structures:end_castle/house_content",
+  "nova_structures:end_castle/main",
+  "nova_structures:end_castle/portal",
+  "nova_structures:end_castle/spawner",
+  "nova_structures:end_castle/start",
+  "nova_structures:end_castle/tower",
+  "nova_structures:end_castle/tower_fallback",
+  "nova_structures:end_castle/vault",
+  "nova_structures:end_ships/boat"
+]

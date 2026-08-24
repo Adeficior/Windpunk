@@ -1,0 +1,14 @@
+[
+  "supplementaries:galleon/boats",
+  "supplementaries:galleon/hull_end",
+  "supplementaries:galleon/hull_mid",
+  "supplementaries:galleon/hull_start",
+  "supplementaries:galleon/orlop",
+  "supplementaries:galleon/plunderer",
+  "supplementaries:galleon/room",
+  "supplementaries:galleon/sails",
+  "supplementaries:galleon/start_pool",
+  "supplementaries:galleon/urns",
+  "supplementaries:road_sign/feature_pool",
+  "supplementaries:road_sign/start_pool"
+]

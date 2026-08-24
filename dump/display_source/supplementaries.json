@@ -1,0 +1,7 @@
+[
+  "supplementaries:clock_source",
+  "supplementaries:fluid_tank_source",
+  "supplementaries:globe_display_source",
+  "supplementaries:item_display_source",
+  "supplementaries:notice_board_display_source"
+]

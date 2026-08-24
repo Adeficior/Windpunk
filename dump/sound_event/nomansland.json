@@ -93,6 +93,7 @@
   "nomansland:entity.friend_moon.offering_loop",
   "nomansland:entity.friend_moon.speak",
   "nomansland:entity.friend_moon.speak_ambient_loop",
+  "nomansland:entity.friend_moon.speak_bgr",
   "nomansland:entity.friend_moon.speak_sad",
   "nomansland:entity.generic.sticky_cauldron_slide",
   "nomansland:entity.goose.ambient",
@@ -133,8 +134,10 @@
   "nomansland:item.honeycomb.consumed",
   "nomansland:item.resin.consumed",
   "nomansland:music.overworld.alchemist_ruins",
+  "nomansland:music.overworld.anachronistic",
   "nomansland:music.overworld.cave_depths",
   "nomansland:music.overworld.caves",
+  "nomansland:music.overworld.mushroom_biome",
   "nomansland:music_disc.guidance",
   "nomansland:particle.droplet.fall"
 ]

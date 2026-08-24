@@ -200,6 +200,7 @@
   "nomansland:meadow/change_spawns",
   "nomansland:mushroom_fields/add_spawns",
   "nomansland:mushroom_fields/change_color",
+  "nomansland:mushroom_fields/change_music",
   "nomansland:mushroom_fields/remove_features",
   "nomansland:ocean/change_color",
   "nomansland:ocean/remove_features",
