@@ -5,7 +5,8 @@
     "": {
       "name": "windpunk",
       "dependencies": {
-        "@adeficior/assembler": "^1.0.0-rc.37",
+        "@adeficior/assembler": "^1.0.0-rc.38",
+        "@adeficior/data-modifier-create": "^2.0.2",
       },
       "devDependencies": {
         "@types/bun": "latest",
@@ -15,19 +16,21 @@
     },
   },
   "packages": {
-    "@adeficior/assembler": ["@adeficior/assembler@1.0.0-rc.37", "", { "dependencies": { "@adeficior/data-modifier": "^2.0.1", "@adeficior/data-modifier-codegen": "^2.0.1", "arg": "^5.0.2", "winston": "^3.19.0" }, "peerDependencies": { "@adeficior/pack-resolver": "^2.0.1", "@adeficior/resource-merger": "^2.0.1" }, "bin": { "assembler": "dist/cli.js" } }, "sha512-gpYQNbz1dVTLZQg1v59vVXoCHnOVgt6g2XmOSK7+U65Kc9o8CUwbc5GkyAmrQWuPKQ7koB+nTMitD29aOT+8Mg=="],
+    "@adeficior/assembler": ["@adeficior/assembler@1.0.0-rc.38", "", { "dependencies": { "@adeficior/data-modifier": "^2.0.2", "@adeficior/data-modifier-codegen": "^2.1.0", "arg": "^5.0.2", "winston": "^3.19.0" }, "peerDependencies": { "@adeficior/pack-resolver": "^2.0.1", "@adeficior/resource-merger": "^2.0.1" }, "bin": { "assembler": "dist/cli.js" } }, "sha512-t55B0vYkVnJqBSEJd2vIPWJeNOzdNRzkBoFzjKvjdrL7iAxWUNljUtK7ROMW3rVLrAErkWJkdHyP6XayAG+s9w=="],
 
-    "@adeficior/data-modifier": ["@adeficior/data-modifier@2.0.1", "", { "dependencies": { "@adeficior/data-modifier-core": "^2.0.1", "@adeficior/data-modifier-ingredients": "^2.0.1", "@adeficior/data-modifier-loader": "^2.0.1", "@adeficior/data-modifier-loot": "^2.0.1", "@adeficior/data-modifier-recipes": "^2.0.1", "@adeficior/data-modifier-tags": "^2.0.1", "@adeficior/resource-merger": "^2.0.1" }, "peerDependencies": { "@adeficior/pack-resolver": "^2.0.1", "lodash-es": "^4.18.1", "typescript": "^5", "zod": "^4.4.3" }, "bin": { "datamod": "dist/cli.js" } }, "sha512-CDS5ord/Kgba4jFquHtVpy1lyd7GKSb5+01PN7nzWUvv5+OKNOfnU1THi6sLFdFzuethoTmT9PzTb6qJlW+D0w=="],
+    "@adeficior/data-modifier": ["@adeficior/data-modifier@2.0.2", "", { "dependencies": { "@adeficior/data-modifier-core": "^2.0.2", "@adeficior/data-modifier-ingredients": "^2.0.2", "@adeficior/data-modifier-loader": "^2.1.0", "@adeficior/data-modifier-loot": "^2.0.2", "@adeficior/data-modifier-recipes": "^2.0.2", "@adeficior/data-modifier-tags": "^2.0.2", "@adeficior/resource-merger": "^2.0.1" }, "peerDependencies": { "@adeficior/pack-resolver": "^2.0.1", "lodash-es": "^4.18.1", "typescript": "^5", "zod": "^4.4.3" }, "bin": { "datamod": "dist/cli.js" } }, "sha512-OkqA2YZEX9sUO78qPiTgbgpFWDatK9TmS7JfQK4ESz8E35eJM3b2ouC4Vj+V1fYb3PKeeyyYjJLFRtwWpqc1Ow=="],
 
-    "@adeficior/data-modifier-codegen": ["@adeficior/data-modifier-codegen@2.0.1", "", { "dependencies": { "@adeficior/data-modifier-loader": "^2.0.1", "arg": "^5.0.2" }, "peerDependencies": { "@adeficior/data-modifier-core": "^2.0.1", "@adeficior/pack-resolver": "^2.0.1", "lodash-es": "^4.18.1", "prettier": "^3.8.4", "typescript": "^5" }, "bin": { "datamod-codegen": "dist/cli.ts" } }, "sha512-lNW5Bs4Wtdxm0ZieBTJGs76dKHnsx/yVX9c0MtFYyQVuY0KvFaOyh2ewjZ/ZoocV2hxgAqWA3Dv8lBClSqIjWA=="],
+    "@adeficior/data-modifier-codegen": ["@adeficior/data-modifier-codegen@2.1.0", "", { "dependencies": { "@adeficior/data-modifier-loader": "^2.1.0", "arg": "^5.0.2" }, "peerDependencies": { "@adeficior/data-modifier-core": "^2.0.2", "@adeficior/pack-resolver": "^2.0.1", "lodash-es": "^4.18.1", "prettier": "^3.8.4", "typescript": "^5" }, "bin": { "datamod-codegen": "dist/cli.ts" } }, "sha512-pn/NTBrvicDvT9FB3kcLA3xi+EoMwKfHG8xcpWnQSoy+ur2A6EVpy49/iY1SoAra3QBvaKtl7hCVz52GClZqQg=="],
 
     "@adeficior/data-modifier-core": ["@adeficior/data-modifier-core@2.0.1", "", { "dependencies": { "json5": "^2.2.3", "lodash-es": "^4.18.1", "minimatch": "^10.2.6", "prettier": "^3.8.4", "zod": "^4.4.3" }, "peerDependencies": { "@adeficior/pack-resolver": "^2.0.1", "typescript": "^5" } }, "sha512-28iTrzTM2aXEmYGlony40n1Tx6bzfT6v7q8pXr2dui6/js5Jjzs3b2kPEppz4O+eCRW/Cckz4Rc85pxLEmkmZA=="],
 
+    "@adeficior/data-modifier-create": ["@adeficior/data-modifier-create@2.0.2", "", { "peerDependencies": { "@adeficior/data-modifier-core": "^2.0.2", "@adeficior/data-modifier-ingredients": "^2.0.2", "@adeficior/data-modifier-recipes": "^2.0.2", "@adeficior/data-modifier-tags": "^2.0.2", "@adeficior/pack-resolver": "^2.0.1", "typescript": "^5" } }, "sha512-4LeQcSAqT00QBCKodwKg3yh89Jjupv12u9WiNxB+hAKnd6px02bIsvGaEvGEtKNYArRhjMjoVFGOWtmIvEnCwA=="],
+
     "@adeficior/data-modifier-ingredients": ["@adeficior/data-modifier-ingredients@2.0.1", "", { "peerDependencies": { "@adeficior/data-modifier-core": "^2.0.1", "@adeficior/data-modifier-tags": "^2.0.1", "@adeficior/pack-resolver": "^2.0.1", "lodash-es": "^4.18.1", "typescript": "^5", "zod": "^4.4.3" } }, "sha512-buQ8k1GWajIqqMLx7c+bVJj6NECtxsDjXQrX41gJ5PkO30KtQsVRRfqTNQkKqQ539VYnPR725Jszpf9xLQruUQ=="],
 
-    "@adeficior/data-modifier-loader": ["@adeficior/data-modifier-loader@2.0.1", "", { "peerDependencies": { "@adeficior/data-modifier-core": "^2.0.1", "lodash-es": "^4.18.1", "typescript": "^5" } }, "sha512-JF+r6XgSzcNRkxt1Z/L6XpZWNBrM568uZ8EcJopK8DcuacVUTRdt+vNlnhQy+avG1LqflgvHKQCfttH0zlbsTA=="],
+    "@adeficior/data-modifier-loader": ["@adeficior/data-modifier-loader@2.1.0", "", { "peerDependencies": { "@adeficior/data-modifier-core": "^2.0.2", "lodash-es": "^4.18.1", "typescript": "^5" } }, "sha512-Vte/IxIhNOx24EjoEyD/dxlKLEicFwcASiFs5XY44UyCjNrQ3EEAOU6Ah8WPjYqbIsuE0LWhpgaV/ISJhRm7wA=="],
 
-    "@adeficior/data-modifier-loot": ["@adeficior/data-modifier-loot@2.0.1", "", { "peerDependencies": { "@adeficior/data-modifier-core": "^2.0.1", "@adeficior/data-modifier-ingredients": "^2.0.1", "@adeficior/data-modifier-tags": "^2.0.1", "@adeficior/pack-resolver": "^2.0.1", "typescript": "^5", "zod": "^4.4.3" } }, "sha512-DkNuphl9Ut+PMFTVHOV1MNynppyIK/RFJnwk1k2oO/PIQfA2f6A4gfaef/Rxr/TuLl1uRBhUpSon6tqio1f2fA=="],
+    "@adeficior/data-modifier-loot": ["@adeficior/data-modifier-loot@2.0.2", "", { "peerDependencies": { "@adeficior/data-modifier-core": "^2.0.2", "@adeficior/data-modifier-ingredients": "^2.0.2", "@adeficior/data-modifier-tags": "^2.0.2", "@adeficior/pack-resolver": "^2.0.1", "typescript": "^5", "zod": "^4.4.3" } }, "sha512-4p1HhPRGSntQ/OhJcbeSA4/M4d6BJKuQFl7/U6KtSRMVe34gR2Iwj2MXHT5fmSOL0J2tH7Qtme5i4JlsxxDG4g=="],
 
     "@adeficior/data-modifier-recipes": ["@adeficior/data-modifier-recipes@2.0.1", "", { "peerDependencies": { "@adeficior/data-modifier-core": "^2.0.1", "@adeficior/data-modifier-ingredients": "^2.0.1", "@adeficior/data-modifier-tags": "^2.0.1", "@adeficior/pack-resolver": "^2.0.1", "lodash-es": "^4.18.1", "minimatch": "^10.2.6", "typescript": "^5" } }, "sha512-ptiHvJHhPG5gPQ2uKqsDQ1gDBvaoAMwodv7whtHKJkPJ6t8xkOFj0kxlnR/UE0l7Oiqc4Pz/14K1RnId6MzaQw=="],
 
@@ -196,6 +199,24 @@
     "zip-a-folder": ["zip-a-folder@6.1.4", "", { "dependencies": { "lzma": "^2.3.2", "tinyglobby": "^0.2.17" }, "bin": { "zip-a-folder": "dist/cli.mjs" } }, "sha512-6zRF/xi0zRxKOCTBVWLwWyyp+zuAKyBhM3Q2ddgEg8uvjDFSTsKulc476jUAaNXnw3lI8pGRuffRNPbxNUld+g=="],
 
     "zod": ["zod@4.4.3", "", {}, "sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ=="],
+
+    "@adeficior/data-modifier/@adeficior/data-modifier-core": ["@adeficior/data-modifier-core@2.0.2", "", { "dependencies": { "json5": "^2.2.3", "lodash-es": "^4.18.1", "minimatch": "^10.2.6", "prettier": "^3.8.4", "zod": "^4.4.3" }, "peerDependencies": { "@adeficior/pack-resolver": "^2.0.1", "typescript": "^5" } }, "sha512-DUZlFuo/vrLkLGJ1agReYKn31x3sewgXzOM5f0H/UPcE1o1WgX2EH1s8+vxWK6jghBLb13yp97y6ZZ7UCCZxNw=="],
+
+    "@adeficior/data-modifier/@adeficior/data-modifier-ingredients": ["@adeficior/data-modifier-ingredients@2.0.2", "", { "peerDependencies": { "@adeficior/data-modifier-core": "^2.0.2", "@adeficior/data-modifier-tags": "^2.0.2", "@adeficior/pack-resolver": "^2.0.1", "lodash-es": "^4.18.1", "typescript": "^5", "zod": "^4.4.3" } }, "sha512-BDOFpQXTrM4PiPpWAkiHcBy2RfjYho8YR+gSd06zGqyqOUN+R9DiT0sD42QaabaSu6Oh1/BI4nWHXTdzD0L+wA=="],
+
+    "@adeficior/data-modifier/@adeficior/data-modifier-recipes": ["@adeficior/data-modifier-recipes@2.0.2", "", { "peerDependencies": { "@adeficior/data-modifier-core": "^2.0.2", "@adeficior/data-modifier-ingredients": "^2.0.2", "@adeficior/data-modifier-tags": "^2.0.2", "@adeficior/pack-resolver": "^2.0.1", "lodash-es": "^4.18.1", "minimatch": "^10.2.6", "typescript": "^5" } }, "sha512-BFxNRNAY1Sk1QHUEXYh8Fs73F/glvY3Qkr0wKHIUUcPLKrQyq5OUi+wvldrib8QEfhn1bwaFotFus4RVUJVOQg=="],
+
+    "@adeficior/data-modifier/@adeficior/data-modifier-tags": ["@adeficior/data-modifier-tags@2.0.2", "", { "peerDependencies": { "@adeficior/data-modifier-core": "^2.0.2", "@adeficior/pack-resolver": "^2.0.1", "lodash-es": "^4.18.1", "typescript": "^5" } }, "sha512-5h9/nhPt6IGXTRzUQDSgHX+th7mnKEZwCyud779O7rTuPecpheHmrNUjVVT8XenxDXCpacaUIjGbLqepvQGuNA=="],
+
+    "@adeficior/data-modifier-codegen/@adeficior/data-modifier-core": ["@adeficior/data-modifier-core@2.0.2", "", { "dependencies": { "json5": "^2.2.3", "lodash-es": "^4.18.1", "minimatch": "^10.2.6", "prettier": "^3.8.4", "zod": "^4.4.3" }, "peerDependencies": { "@adeficior/pack-resolver": "^2.0.1", "typescript": "^5" } }, "sha512-DUZlFuo/vrLkLGJ1agReYKn31x3sewgXzOM5f0H/UPcE1o1WgX2EH1s8+vxWK6jghBLb13yp97y6ZZ7UCCZxNw=="],
+
+    "@adeficior/data-modifier-loader/@adeficior/data-modifier-core": ["@adeficior/data-modifier-core@2.0.2", "", { "dependencies": { "json5": "^2.2.3", "lodash-es": "^4.18.1", "minimatch": "^10.2.6", "prettier": "^3.8.4", "zod": "^4.4.3" }, "peerDependencies": { "@adeficior/pack-resolver": "^2.0.1", "typescript": "^5" } }, "sha512-DUZlFuo/vrLkLGJ1agReYKn31x3sewgXzOM5f0H/UPcE1o1WgX2EH1s8+vxWK6jghBLb13yp97y6ZZ7UCCZxNw=="],
+
+    "@adeficior/data-modifier-loot/@adeficior/data-modifier-core": ["@adeficior/data-modifier-core@2.0.2", "", { "dependencies": { "json5": "^2.2.3", "lodash-es": "^4.18.1", "minimatch": "^10.2.6", "prettier": "^3.8.4", "zod": "^4.4.3" }, "peerDependencies": { "@adeficior/pack-resolver": "^2.0.1", "typescript": "^5" } }, "sha512-DUZlFuo/vrLkLGJ1agReYKn31x3sewgXzOM5f0H/UPcE1o1WgX2EH1s8+vxWK6jghBLb13yp97y6ZZ7UCCZxNw=="],
+
+    "@adeficior/data-modifier-loot/@adeficior/data-modifier-ingredients": ["@adeficior/data-modifier-ingredients@2.0.2", "", { "peerDependencies": { "@adeficior/data-modifier-core": "^2.0.2", "@adeficior/data-modifier-tags": "^2.0.2", "@adeficior/pack-resolver": "^2.0.1", "lodash-es": "^4.18.1", "typescript": "^5", "zod": "^4.4.3" } }, "sha512-BDOFpQXTrM4PiPpWAkiHcBy2RfjYho8YR+gSd06zGqyqOUN+R9DiT0sD42QaabaSu6Oh1/BI4nWHXTdzD0L+wA=="],
+
+    "@adeficior/data-modifier-loot/@adeficior/data-modifier-tags": ["@adeficior/data-modifier-tags@2.0.2", "", { "peerDependencies": { "@adeficior/data-modifier-core": "^2.0.2", "@adeficior/pack-resolver": "^2.0.1", "lodash-es": "^4.18.1", "typescript": "^5" } }, "sha512-5h9/nhPt6IGXTRzUQDSgHX+th7mnKEZwCyud779O7rTuPecpheHmrNUjVVT8XenxDXCpacaUIjGbLqepvQGuNA=="],
 
     "ansi-styles/color-convert": ["color-convert@1.9.3", "", { "dependencies": { "color-name": "1.1.3" } }, "sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg=="],
 

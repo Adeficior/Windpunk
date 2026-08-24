@@ -1,9 +1,0 @@
-// TODO re-enable
-
-modifier.recipeGraph.show("create:milling/cobblestone");
-modifier.recipeGraph.show("create:splashing/gravel");
-modifier.recipeGraph.show("create:milling/gravel");
-modifier.recipeGraph.show("create:splashing/sand");
-modifier.recipeGraph.show("create:mixing/lava_from_cobble");
-modifier.recipeGraph.show("create:mixing/andesite_alloy");
-modifier.recipeGraph.show("create:compacting/andesite_from_flint");
