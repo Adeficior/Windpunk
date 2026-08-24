@@ -1,6 +1,6 @@
-import type { LootEntry } from "@adeficior/data-modifier";
+import type { LootEntry } from "@adeficior/data-modifier/loot";
 
-loader.loot.add("compost:composters/compost", {
+modifier.loot.add("compost:composters/compost", {
   pools: [
     {
       rolls: 1,

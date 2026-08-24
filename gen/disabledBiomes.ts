@@ -1,4 +1,4 @@
-const tags = loader.tags.scoped("minecraft:worldgen/biome");
+const tags = modifier.tags.scoped("minecraft:worldgen/biome");
 
 tags.empty("#has_structure/village_desert");
 tags.empty("#has_structure/village_plains");
