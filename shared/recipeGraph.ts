@@ -7,17 +7,14 @@ import {
   type NormalizedId,
   prefix,
   type Registered,
-  Registry,
+  RegistryMap,
   suffix,
 } from "@adeficior/data-modifier-core";
 import type {
   CommonFilter,
   Predicate,
 } from "@adeficior/data-modifier-core/serializer";
-import {
-  resolveIdTest,
-  toJson,
-} from "@adeficior/data-modifier-core/serializer";
+import { toJson } from "@adeficior/data-modifier-core/serializer";
 import type { RecipeLoader } from "@adeficior/data-modifier-recipes";
 import type { RecipeHolder } from "@adeficior/data-modifier-recipes/serializer";
 import type { TagRegistries } from "@adeficior/data-modifier-tags";
@@ -26,6 +23,7 @@ import type {
   RecipeSerializerId,
   RegistryId,
 } from "@adeficior/data-modifier/generated";
+import type { Predicates } from "@adeficior/data-modifier/ingredients";
 import { simpleResolver } from "@adeficior/pack-resolver";
 
 type Node = {
@@ -82,7 +80,7 @@ type RecipeTypeRepresentation = {
 export class RecipeGraphEmitter
   implements ClearableEmitter, RecipeGraphAccessor
 {
-  private readonly shown = new Registry<RecipeHolder>();
+  private readonly shown = new RegistryMap<RecipeHolder>();
   private representations: RecipeTypeRepresentation[] = [];
 
   private readonly options: Required<RecipeGraphOptions>;
@@ -90,6 +88,7 @@ export class RecipeGraphEmitter
   constructor(
     private readonly recipes: RecipeLoader,
     private readonly tags: TagRegistries,
+    private readonly predicates: Predicates,
     options: RecipeGraphOptions = {},
   ) {
     this.options = { ...defaultOptions, ...options };
@@ -131,7 +130,7 @@ export class RecipeGraphEmitter
     label?: string,
   ) {
     this.representations.push({
-      test: resolveIdTest(type),
+      test: this.predicates.id(type),
       icon: encodeId(icon),
       label,
     });
@@ -172,8 +171,8 @@ export class RecipeGraphEmitter
 }
 
 class GraphBuilder {
-  private readonly nodes = new Registry<Omit<Node, "id">>();
-  private readonly edges = new Registry<Edge>();
+  private readonly nodes = new RegistryMap<Omit<Node, "id">>();
+  private readonly edges = new RegistryMap<Edge>();
 
   constructor(
     private readonly tags: TagRegistries,
@@ -306,7 +305,7 @@ class GraphBuilder {
     }
   }
 
-  build(shown: Registry<RecipeHolder>): { nodes: Node[]; edges: Edge[] } {
+  build(shown: RegistryMap<RecipeHolder>): { nodes: Node[]; edges: Edge[] } {
     shown.forEach((recipe, id) => this.addRecipe(id, recipe));
     this.sanitize();
     return { edges: this.edges.values(), nodes: this.nodes.valuesWithId() };

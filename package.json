@@ -11,8 +11,8 @@
     "prepare": "husky && assembler prepare"
   },
   "dependencies": {
-    "@adeficior/assembler": "^1.0.0-rc.38",
-    "@adeficior/data-modifier-create": "^2.0.2"
+    "@adeficior/assembler": "^1.0.0-rc.40",
+    "@adeficior/data-modifier-create": "^2.0.4"
   },
   "devDependencies": {
     "@types/bun": "latest",
