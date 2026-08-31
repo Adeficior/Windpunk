@@ -1,1 +1,3 @@
 packwiz refresh --pack-file ./pack/pack.toml
+git add ./pack/pack.toml
+git add ./pack/index.toml

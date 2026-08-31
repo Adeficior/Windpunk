@@ -12,7 +12,7 @@
     "prepare": "husky && assembler prepare"
   },
   "dependencies": {
-    "@adeficior/assembler": "link:@adeficior/assembler",
+    "@adeficior/assembler": "1.0.0-rc.42",
     "@adeficior/data-modifier-create": "^2.0.4"
   },
   "devDependencies": {
