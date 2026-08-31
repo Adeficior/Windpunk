@@ -92,7 +92,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           context: .assembler/pack
-          file: Dockerfile
+          file: .assembler/pack.dockerfile
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
