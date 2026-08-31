@@ -1,22 +1,23 @@
 {
   "name": "@adeficior/windpunk",
-  "module": "index.ts",
   "type": "module",
   "private": true,
   "scripts": {
-    "serve": "packwiz serve --pack-file .assembler/pack/pack.toml",
+    "serve": "assembler serve",
     "assemble": "assembler --generate --merge",
-    "download": "docker compose up installer --build --abort-on-container-exit",
-    "dump": "docker compose up dump --build --abort-on-container-exit",
+    "dev": "assembler --generate --watch",
+    "download": "assembler download",
+    "dump": "assembler dump",
     "upload": "assembler publish",
     "prepare": "husky && assembler prepare"
   },
   "dependencies": {
-    "@adeficior/assembler": "^1.0.0-rc.26"
+    "@adeficior/assembler": "link:@adeficior/assembler",
+    "@adeficior/data-modifier-create": "^2.0.4"
   },
   "devDependencies": {
     "@types/bun": "latest",
     "husky": "^9.1.7",
-    "typescript": "^5"
+    "typescript": "^7"
   }
 }

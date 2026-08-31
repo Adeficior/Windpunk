@@ -37,6 +37,7 @@
    "issueReportEnabled": true,
    "enabledDimensions": [
       "minecraft:overworld",
+      "windpunk:creative",
       "bigglobe:overworld",
       "me:middle_earth_type"
    ],

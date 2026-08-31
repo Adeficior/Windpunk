@@ -1,0 +1,123 @@
+[
+  {
+    "id": "create:recipe/milling/cobblestone",
+    "registry": "minecraft:recipe_serializer",
+    "shape": "image",
+    "brokenImage": "https://icons.macarena.ceo/icons/minecraft/bedrock.png",
+    "image": "https://icons.macarena.ceo/icons/create/millstone.png"
+  },
+  {
+    "registry": "minecraft:item",
+    "label": "minecraft:cobblestone",
+    "shape": "image",
+    "brokenImage": "https://icons.macarena.ceo/icons/minecraft/bedrock.png",
+    "image": "https://icons.macarena.ceo/icons/minecraft/cobblestone.png",
+    "id": "minecraft:cobblestone"
+  },
+  {
+    "registry": "minecraft:item",
+    "label": "minecraft:gravel",
+    "shape": "image",
+    "brokenImage": "https://icons.macarena.ceo/icons/minecraft/bedrock.png",
+    "image": "https://icons.macarena.ceo/icons/minecraft/gravel.png",
+    "id": "minecraft:gravel"
+  },
+  {
+    "id": "create:recipe/splashing/gravel",
+    "registry": "minecraft:recipe_serializer",
+    "shape": "image",
+    "brokenImage": "https://icons.macarena.ceo/icons/minecraft/bedrock.png",
+    "image": "https://icons.macarena.ceo/icons/create/encased_fan.png"
+  },
+  {
+    "registry": "minecraft:item",
+    "label": "minecraft:flint",
+    "shape": "image",
+    "brokenImage": "https://icons.macarena.ceo/icons/minecraft/bedrock.png",
+    "image": "https://icons.macarena.ceo/icons/minecraft/flint.png",
+    "id": "minecraft:flint"
+  },
+  {
+    "registry": "minecraft:item",
+    "label": "minecraft:iron_nugget",
+    "shape": "image",
+    "brokenImage": "https://icons.macarena.ceo/icons/minecraft/bedrock.png",
+    "image": "https://icons.macarena.ceo/icons/minecraft/iron_nugget.png",
+    "id": "minecraft:iron_nugget"
+  },
+  {
+    "id": "create:recipe/milling/gravel",
+    "registry": "minecraft:recipe_serializer",
+    "shape": "image",
+    "brokenImage": "https://icons.macarena.ceo/icons/minecraft/bedrock.png",
+    "image": "https://icons.macarena.ceo/icons/create/millstone.png"
+  },
+  {
+    "id": "create:recipe/splashing/sand",
+    "registry": "minecraft:recipe_serializer",
+    "shape": "image",
+    "brokenImage": "https://icons.macarena.ceo/icons/minecraft/bedrock.png",
+    "image": "https://icons.macarena.ceo/icons/create/encased_fan.png"
+  },
+  {
+    "registry": "minecraft:item",
+    "label": "minecraft:sand",
+    "shape": "image",
+    "brokenImage": "https://icons.macarena.ceo/icons/minecraft/bedrock.png",
+    "image": "https://icons.macarena.ceo/icons/minecraft/sand.png",
+    "id": "minecraft:sand"
+  },
+  {
+    "registry": "minecraft:item",
+    "label": "minecraft:clay_ball",
+    "shape": "image",
+    "brokenImage": "https://icons.macarena.ceo/icons/minecraft/bedrock.png",
+    "image": "https://icons.macarena.ceo/icons/minecraft/clay_ball.png",
+    "id": "minecraft:clay_ball"
+  },
+  {
+    "id": "create:recipe/mixing/lava_from_cobble",
+    "registry": "minecraft:recipe_serializer",
+    "shape": "image",
+    "brokenImage": "https://icons.macarena.ceo/icons/minecraft/bedrock.png",
+    "image": "https://icons.macarena.ceo/icons/create/mechanical_mixer.png"
+  },
+  {
+    "registry": "minecraft:fluid",
+    "label": "minecraft:lava",
+    "shape": "image",
+    "brokenImage": "https://icons.macarena.ceo/icons/minecraft/bedrock.png",
+    "image": "https://icons.macarena.ceo/icons/minecraft/lava_bucket.png",
+    "id": "minecraft:lava"
+  },
+  {
+    "id": "create:recipe/mixing/andesite_alloy",
+    "registry": "minecraft:recipe_serializer",
+    "shape": "image",
+    "brokenImage": "https://icons.macarena.ceo/icons/minecraft/bedrock.png",
+    "image": "https://icons.macarena.ceo/icons/create/mechanical_mixer.png"
+  },
+  {
+    "registry": "minecraft:item",
+    "label": "minecraft:andesite",
+    "shape": "image",
+    "brokenImage": "https://icons.macarena.ceo/icons/minecraft/bedrock.png",
+    "image": "https://icons.macarena.ceo/icons/minecraft/andesite.png",
+    "id": "minecraft:andesite"
+  },
+  {
+    "registry": "minecraft:item",
+    "label": "create:andesite_alloy",
+    "shape": "image",
+    "brokenImage": "https://icons.macarena.ceo/icons/minecraft/bedrock.png",
+    "image": "https://icons.macarena.ceo/icons/create/andesite_alloy.png",
+    "id": "create:andesite_alloy"
+  },
+  {
+    "id": "create:recipe/compacting/andesite_from_flint",
+    "registry": "minecraft:recipe_serializer",
+    "shape": "image",
+    "brokenImage": "https://icons.macarena.ceo/icons/minecraft/bedrock.png",
+    "image": "https://icons.macarena.ceo/icons/create/mechanical_press.png"
+  }
+]

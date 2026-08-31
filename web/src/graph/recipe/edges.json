@@ -1,0 +1,99 @@
+[
+  {
+    "arrows": "to",
+    "from": "minecraft:cobblestone",
+    "to": "create:recipe/milling/cobblestone"
+  },
+  {
+    "arrows": "to",
+    "from": "create:recipe/milling/cobblestone",
+    "to": "minecraft:gravel"
+  },
+  {
+    "arrows": "to",
+    "from": "minecraft:gravel",
+    "to": "create:recipe/splashing/gravel"
+  },
+  {
+    "arrows": "to",
+    "from": "create:recipe/splashing/gravel",
+    "to": "minecraft:flint"
+  },
+  {
+    "arrows": "to",
+    "from": "create:recipe/splashing/gravel",
+    "to": "minecraft:iron_nugget"
+  },
+  {
+    "arrows": "to",
+    "from": "minecraft:gravel",
+    "to": "create:recipe/milling/gravel"
+  },
+  {
+    "arrows": "to",
+    "from": "create:recipe/milling/gravel",
+    "to": "minecraft:flint"
+  },
+  {
+    "arrows": "to",
+    "from": "minecraft:sand",
+    "to": "create:recipe/splashing/sand"
+  },
+  {
+    "arrows": "to",
+    "from": "create:recipe/splashing/sand",
+    "to": "minecraft:clay_ball"
+  },
+  {
+    "arrows": "to",
+    "from": "create:recipe/mixing/lava_from_cobble",
+    "to": "minecraft:lava"
+  },
+  {
+    "arrows": "to",
+    "from": "minecraft:andesite",
+    "to": "create:recipe/mixing/andesite_alloy"
+  },
+  {
+    "arrows": "to",
+    "from": "create:recipe/mixing/andesite_alloy",
+    "to": "create:andesite_alloy"
+  },
+  {
+    "arrows": "to",
+    "from": "minecraft:flint",
+    "to": "create:recipe/compacting/andesite_from_flint"
+  },
+  {
+    "arrows": "to",
+    "from": "minecraft:flint",
+    "to": "create:recipe/compacting/andesite_from_flint"
+  },
+  {
+    "arrows": "to",
+    "from": "minecraft:gravel",
+    "to": "create:recipe/compacting/andesite_from_flint"
+  },
+  {
+    "arrows": "to",
+    "from": "minecraft:lava",
+    "to": "create:recipe/compacting/andesite_from_flint"
+  },
+  {
+    "arrows": "to",
+    "from": "create:recipe/compacting/andesite_from_flint",
+    "to": "minecraft:andesite"
+  },
+  {
+    "label": "uses any #c:cobblestones",
+    "arrows": "to",
+    "from": "minecraft:cobblestone",
+    "to": "create:recipe/mixing/lava_from_cobble"
+  },
+  {
+    "label": "uses any #c:nuggets/iron",
+    "arrows": "to",
+    "from": "minecraft:iron_nugget",
+    "to": "create:recipe/mixing/andesite_alloy"
+  }
+]

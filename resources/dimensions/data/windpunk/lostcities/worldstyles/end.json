@@ -1,0 +1,30 @@
+{
+   "outsidestyle": "windpunk:end",
+   "multisettings": {
+      "areasize": 10,
+      "minimum": 1,
+      "maximum": 5
+   },
+   "scattered": {
+      "areasize": 8,
+      "chance": 0.1,
+      "weightnone": 20,
+      "list": []
+   },
+   "citybiomemultipliers": [
+      {
+         "multiplier": 0,
+         "biomes": {
+            "excluding": [
+               "windpunk:abandoned_urban"
+            ]
+         }
+      }
+   ],
+   "citystyles": [
+      {
+         "factor": 1,
+         "citystyle": "windpunk:end"
+      }
+   ]
+}

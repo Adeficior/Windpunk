@@ -1,0 +1,13 @@
+name = "Supplementaries Rope Tweaks"
+filename = "Supplementaries Rope Redone v2.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/kD6hlOxD/versions/uophRBRu/Supplementaries%20Rope%20Redone%20v2.0.zip"
+hash-format = "sha512"
+hash = "8bdb2862b31e0a2c1286f4b869ac2ea7ee0a1926e57e7df11348042567cccdab11afbfc285c9614fb8fe1627fea17a8754979d12d1610b1456a74d5c0a3397dc"
+
+[update]
+[update.modrinth]
+mod-id = "kD6hlOxD"
+version = "uophRBRu"

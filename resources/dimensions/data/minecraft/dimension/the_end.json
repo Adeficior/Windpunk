@@ -1,0 +1,96 @@
+{
+   "type": "minecraft:the_end",
+   "generator": {
+      "type": "minecraft:noise",
+      "biome_source": {
+         "type": "minecraft:multi_noise",
+         "biomes": [
+            {
+               "biome": "minecraft:end_highlands",
+               "parameters": {
+                  "temperature": -1,
+                  "humidity": -0.19,
+                  "continentalness": 0,
+                  "erosion": 0,
+                  "weirdness": 0,
+                  "depth": 0,
+                  "offset": 0
+               }
+            },
+            {
+               "biome": "minecraft:end_midlands",
+               "parameters": {
+                  "temperature": 0,
+                  "humidity": -0.19,
+                  "continentalness": 0,
+                  "erosion": 0,
+                  "weirdness": 0,
+                  "depth": 0,
+                  "offset": 0
+               }
+            },
+            {
+               "biome": "minecraft:end_barrens",
+               "parameters": {
+                  "temperature": 0.1,
+                  "humidity": -0.19,
+                  "continentalness": 0,
+                  "erosion": 0,
+                  "weirdness": 0,
+                  "depth": 0,
+                  "offset": 0
+               }
+            },
+            {
+               "biome": "windpunk:abandoned_urban",
+               "parameters": {
+                  "temperature": 0.5,
+                  "humidity": -0.19,
+                  "continentalness": 0,
+                  "erosion": 0,
+                  "weirdness": 0,
+                  "depth": 0,
+                  "offset": 0
+               }
+            },
+            {
+               "biome": "enderscape:void_depths",
+               "parameters": {
+                  "temperature": 1,
+                  "humidity": -0.2,
+                  "continentalness": 0,
+                  "erosion": 0,
+                  "weirdness": 0,
+                  "depth": 0,
+                  "offset": 0
+               }
+            },
+            {
+               "biome": "enderscape:void_depths",
+               "parameters": {
+                  "temperature": -1,
+                  "humidity": -0.2,
+                  "continentalness": 0,
+                  "erosion": 0,
+                  "weirdness": 0,
+                  "depth": 0,
+                  "offset": 0
+               }
+            },
+            {
+               "biome": "enderscape:void_depths",
+               "parameters": {
+                  "temperature": 0,
+                  "humidity": -0.2,
+                  "continentalness": 0,
+                  "erosion": 0,
+                  "weirdness": 0,
+                  "depth": 0,
+                  "offset": 0
+               }
+            }
+         ]
+      },
+      "settings": "minecraft:end"
+   }
+}

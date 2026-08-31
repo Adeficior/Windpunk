@@ -1,0 +1,13 @@
+name = "Natural Firefly Bushes"
+filename = "Natural Firefly Bushes 1.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/1u7lYbpD/versions/IWzmTcUp/Natural%20Firefly%20Bushes%201.0.zip"
+hash-format = "sha512"
+hash = "a808b65dfe015c628cab11b3c52a38e4c78f475d687cd0617fb27aa86a088b824093ea2e328286fbacc30baee2425858f2b82a42a60509546627d06ff01b9e2d"
+
+[update]
+[update.modrinth]
+mod-id = "1u7lYbpD"
+version = "IWzmTcUp"

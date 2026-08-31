@@ -1,0 +1,20 @@
+{
+   "blocks": [
+      {
+         "random": 10,
+         "block": "minecraft:end_stone_bricks"
+      },
+      {
+         "random": 8,
+         "block": "minecraft:end_stone_brick_stairs"
+      },
+      {
+         "random": 10,
+         "block": "minecraft:end_stone_brick_slab"
+      },
+      {
+         "random": 1000,
+         "block": "minecraft:end_stone"
+      }
+   ]
+}

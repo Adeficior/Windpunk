@@ -1,0 +1,25 @@
+---
+
+---
+
+<div id="graph"></div>
+
+<script>
+  import { Network } from "vis-network";
+
+  const container = document.getElementById("graph");
+  const graph = (window as any).graph.recipe;
+
+  if (container) {
+    new Network(container, graph, {});
+  } else {
+    console.warn("unable to find graph container");
+  }
+</script>
+
+<style scoped>
+  #graph {
+    height: 1000px;
+    width: 1000px;
+  }
+</style>

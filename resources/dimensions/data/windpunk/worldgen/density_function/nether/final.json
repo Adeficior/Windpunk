@@ -1,0 +1,5 @@
+{
+   "type": "minecraft:add",
+   "argument1": "windpunk:nether/transition",
+   "argument2": "windpunk:nether/noodles"
+}
