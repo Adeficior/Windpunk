@@ -1,0 +1,13 @@
+name = "Easel Does It!"
+filename = "easel_does_it-1.21.1-2.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SaKy2xRK/versions/zZeTmYnM/easel_does_it-1.21.1-2.0.3.jar"
+hash-format = "sha512"
+hash = "58daf17cc435e6b9384e3bd9f7562beb6b9fcbf3a6b5e7150bb679fd4ad26ed7569752f6094792dd117e1a88d62770932b5a957b783522fd18a7966aa992b409"
+
+[update]
+[update.modrinth]
+mod-id = "SaKy2xRK"
+version = "zZeTmYnM"

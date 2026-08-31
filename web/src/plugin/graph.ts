@@ -2,7 +2,15 @@ import type { AstroIntegration } from "astro";
 import { readdir, readFile } from "node:fs/promises";
 import { join } from "node:path";
 
-const graphsDir = join(import.meta.dirname, "..", "graph");
+const graphsDir = join(
+  import.meta.dirname,
+  "..",
+  "..",
+  "..",
+  ".assembler",
+  "generated",
+  "graph",
+);
 
 const graphsTypes = await readdir(graphsDir);
 

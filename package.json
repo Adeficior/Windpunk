@@ -5,13 +5,14 @@
   "scripts": {
     "serve": "assembler serve",
     "assemble": "assembler --generate --merge",
+    "dev": "assembler --generate --watch",
     "download": "assembler download",
     "dump": "assembler dump",
     "upload": "assembler publish",
     "prepare": "husky && assembler prepare"
   },
   "dependencies": {
-    "@adeficior/assembler": "^1.0.0-rc.40",
+    "@adeficior/assembler": "link:@adeficior/assembler",
     "@adeficior/data-modifier-create": "^2.0.4"
   },
   "devDependencies": {

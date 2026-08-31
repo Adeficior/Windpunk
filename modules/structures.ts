@@ -108,6 +108,9 @@ export default defineLocalModule<{
 }>({
   name: "structures",
   importModule: "@/shared/structures",
+  dependencies: {
+    "@adeficior/data-modifier-ingredients": "required",
+  },
   types: {
     services: {
       "rules:structures": "StructureRules",

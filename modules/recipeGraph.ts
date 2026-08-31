@@ -13,7 +13,7 @@ export default defineLocalModule<{
   importModule: "@/shared/recipeGraph",
   dependencies: {
     "@adeficior/data-modifier-recipes": "required",
-    "@adeficior/data-modifier-tags": "required",
+    "@adeficior/data-modifier-ingredients": "required",
   },
   types: {
     emitters: {
@@ -22,12 +22,14 @@ export default defineLocalModule<{
   },
   promote: [{ key: "graph", service: "emitter:graph" }],
   setup: (instance) => {
+    // TODO remove again
     instance.emitter(
       "graph",
       (container) =>
         new RecipeGraphEmitter(
           container.get("loader:recipes"),
           container.get("loader:tags"),
+          container.get("predicates"),
         ),
     );
   },

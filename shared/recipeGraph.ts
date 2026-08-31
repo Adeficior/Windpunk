@@ -93,8 +93,11 @@ export class RecipeGraphEmitter
   ) {
     this.options = { ...defaultOptions, ...options };
 
-    this.represent(/minecraft:crafting_.+/, "minecraft:crafting_bench");
-    this.represent(/.+:crafting_special_.+/, "minecraft:crafting_bench");
+    // TODO remove again
+    (tags as any).registerRegistry("minecraft:recipe_serializer");
+
+    this.represent(/minecraft:crafting_.+/, "minecraft:crafting_table");
+    this.represent(/.+:crafting_special_.+/, "minecraft:crafting_table");
     this.represent("minecraft:smelting", "minecraft:furnace");
     this.represent("minecraft:smoking", "minecraft:smoker");
     this.represent("minecraft:blasting", "minecraft:blast_furnace");
@@ -130,7 +133,7 @@ export class RecipeGraphEmitter
     label?: string,
   ) {
     this.representations.push({
-      test: this.predicates.id(type),
+      test: this.predicates.id(type, "minecraft:recipe_serializer"),
       icon: encodeId(icon),
       label,
     });
@@ -226,7 +229,7 @@ class GraphBuilder {
 
   private addRecipeNode(id: NormalizedId, recipe: RecipeHolder) {
     const representation = this.representations.find((it) =>
-      it.test(recipe.serializerType),
+      it.test(recipe.serializerType as RecipeSerializerId),
     );
 
     const common = {
@@ -284,8 +287,11 @@ class GraphBuilder {
           }
 
           const nodeId = encodeId(id);
-          const from = this.edges.filter((it) => it.from === nodeId);
-          const to = this.edges.filter((it) => it.to === nodeId);
+
+          const edges = this.edges.entries().toArray();
+
+          const from = edges.filter(([, it]) => it.from === nodeId);
+          const to = edges.filter(([, it]) => it.to === nodeId);
 
           const label = `uses any ${nodeId}`;
           replacements.forEach((id) => {
@@ -308,6 +314,12 @@ class GraphBuilder {
   build(shown: RegistryMap<RecipeHolder>): { nodes: Node[]; edges: Edge[] } {
     shown.forEach((recipe, id) => this.addRecipe(id, recipe));
     this.sanitize();
-    return { edges: this.edges.values(), nodes: this.nodes.valuesWithId() };
+    return {
+      edges: this.edges.values().toArray(),
+      nodes: this.nodes
+        .entries()
+        .map(([id, value]) => ({ ...value, id }))
+        .toArray(),
+    };
   }
 }

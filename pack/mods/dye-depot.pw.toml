@@ -1,13 +1,13 @@
 name = "Dye Depot"
-filename = "dye_depot-2.1.0.jar"
+filename = "dye_depot-2.1.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/dl88rsIq/versions/HPPmvIRN/dye_depot-2.1.0.jar"
+url = "https://cdn.modrinth.com/data/dl88rsIq/versions/tT2TDzmL/dye_depot-2.1.1.jar"
 hash-format = "sha512"
-hash = "07971d9ba040ad599781d822a71ec4dccc055d08203e367fef3e078cde4a24f1988088c26e5a5e49bfe5b9fd80179a063354d00eb79e2526069e2833a67e50a0"
+hash = "d737c70c0ca1758d09e30882ec34240ccd9ad429323160fd6436610c37bed62bfac2f82fa7177aa803ad3c06bf0d1d7a0da93696ec9d692f055b08f650de6bb8"
 
 [update]
 [update.modrinth]
 mod-id = "dl88rsIq"
-version = "HPPmvIRN"
+version = "tT2TDzmL"

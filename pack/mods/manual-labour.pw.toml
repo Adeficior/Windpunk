@@ -1,0 +1,13 @@
+name = "Manual Labour"
+filename = "manual_labour-1.21.1-2.3.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kCbtgaek/versions/IeisQeLc/manual_labour-1.21.1-2.3.4.jar"
+hash-format = "sha512"
+hash = "2620ae812d8cb467c381b0350f7e21ada8b4b1d8c78cd1b48a656ad07bae6334445d78fef5d427d779ff208e7ccff4939c4ee04eed5e341dbb16b326f159168a"
+
+[update]
+[update.modrinth]
+mod-id = "kCbtgaek"
+version = "IeisQeLc"

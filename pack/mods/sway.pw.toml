@@ -1,0 +1,13 @@
+name = "SWAY API"
+filename = "sway-2.4.4-neoforge+1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Gj6Yce3v/versions/qABBijPL/sway-2.4.4-neoforge%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "db5953c1ce47efa5db73139ce3e252c2036fc4c65a204b83cc839ab3becf759254361c222d95673cf4ebde1ec1dafb545a6916cee9d05eea31026a36fcefdb1a"
+
+[update]
+[update.modrinth]
+mod-id = "Gj6Yce3v"
+version = "qABBijPL"
