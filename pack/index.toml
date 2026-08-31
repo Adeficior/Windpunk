@@ -152,6 +152,16 @@ hash = "4510ff91153d92f949c2e70e6df356f26b6f1438bc05a98b88463de88a5166a7"
 metafile = true
 
 [[files]]
+file = "mods/drippy-early-loading-module.pw.toml"
+hash = "5fea3c19a3984ad752fd965510c4f8847c5100d001c31cbe46373628de729e06"
+metafile = true
+
+[[files]]
+file = "mods/drippy-loading-screen.pw.toml"
+hash = "d89b50af502aab4416e07fa8f92433a18fac11285fe1c39ebccea610dbfdd1e7"
+metafile = true
+
+[[files]]
 file = "mods/dungeons-and-taverns-end-castle-standalone.pw.toml"
 hash = "d94d9d6b8fcd656ed65e886c3b895dade1130661e0eaeb6b22162060a8dbf331"
 metafile = true
@@ -184,6 +194,11 @@ metafile = true
 [[files]]
 file = "mods/exposure.pw.toml"
 hash = "28c29922378fa19f4edf1d16fffb48287a87be159a3378647073bbdebd2a2196"
+metafile = true
+
+[[files]]
+file = "mods/fancymenu.pw.toml"
+hash = "0789c9f6c10b5cddaa37eeb9388b068b168cd8c0ee1d21f0c3b78d160fc48fdd"
 metafile = true
 
 [[files]]
@@ -232,6 +247,11 @@ hash = "608ca3128f7ce83bc199a1687c0843c23999de0a29d6669be374e4588f5fde69"
 metafile = true
 
 [[files]]
+file = "mods/konkrete.pw.toml"
+hash = "054a1887da4f14b791910660a2a7a2035ac1382461b881a65fe07b224c03735f"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
 metafile = true
@@ -254,6 +274,11 @@ metafile = true
 [[files]]
 file = "mods/mc2-interactive-foliage.pw.toml"
 hash = "7e7c0731b24b0bdfd267385992e25a14910532201a66264e4fec238c0a513e2d"
+metafile = true
+
+[[files]]
+file = "mods/melody.pw.toml"
+hash = "d7ff27bf5e0c0bd5ede8303d5a41cec193f700292c78c86ad6812a5193f013d9"
 metafile = true
 
 [[files]]
