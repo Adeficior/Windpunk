@@ -356,7 +356,7 @@ metafile = true
 
 [[files]]
 file = "mods/oreganized.pw.toml"
-hash = "3b4158a08a8d80efcdfc9382445a6ae2dfd1d4cd96e95ac0e289bb37372a56a1"
+hash = "3b92ea0762d4bd75c9760b52cf160f6f0934af919b5f61303c5aa6c1ad5d1d00"
 metafile = true
 
 [[files]]
