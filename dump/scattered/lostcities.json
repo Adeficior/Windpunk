@@ -1,5 +1,7 @@
 [
   "lostcities:cabin",
+  "lostcities:highway_gas_station",
+  "lostcities:highway_restaurant",
   "lostcities:oilrig",
   "lostcities:radiotower"
 ]

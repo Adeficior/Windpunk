@@ -11,6 +11,7 @@
   "supplementaries:confetti",
   "supplementaries:confetti_dyed",
   "supplementaries:dripping_liquid",
+  "supplementaries:ember_spark",
   "supplementaries:falling_liquid",
   "supplementaries:feather",
   "supplementaries:green_flame",
@@ -23,6 +24,8 @@
   "supplementaries:streamer",
   "supplementaries:streamer_dyed",
   "supplementaries:suds",
+  "supplementaries:suds_emitter",
   "supplementaries:sugar",
-  "supplementaries:wind_stream"
+  "supplementaries:wind_stream",
+  "supplementaries:wind_swirl"
 ]

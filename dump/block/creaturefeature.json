@@ -1,5 +1,22 @@
 [
+  "creaturefeature:blind_fiendish_tiles",
   "creaturefeature:carapace_block",
+  "creaturefeature:carapace_brick_stairs",
+  "creaturefeature:carapace_bricks",
+  "creaturefeature:doohickey",
+  "creaturefeature:down_feathers",
+  "creaturefeature:down_feathers_carpet",
+  "creaturefeature:dream_silk_spool",
   "creaturefeature:eep",
-  "creaturefeature:minedflayer_jelly"
+  "creaturefeature:fiendish_tiles",
+  "creaturefeature:minedflayer_jelly",
+  "creaturefeature:mosaic_down_feathers",
+  "creaturefeature:mosaic_down_feathers_carpet",
+  "creaturefeature:murky_pearl_block",
+  "creaturefeature:murky_pearl_tile_stairs",
+  "creaturefeature:murky_pearl_tiles",
+  "creaturefeature:runic_stone_bricks",
+  "creaturefeature:solar_block",
+  "creaturefeature:solar_bricks",
+  "creaturefeature:wallpaper"
 ]

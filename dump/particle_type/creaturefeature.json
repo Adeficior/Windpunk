@@ -1,10 +1,19 @@
 [
+  "creaturefeature:casing",
   "creaturefeature:cleave",
   "creaturefeature:crit",
+  "creaturefeature:crit_text",
+  "creaturefeature:crit_ver",
   "creaturefeature:flower",
+  "creaturefeature:glass_shard",
+  "creaturefeature:glass_shard_sinister",
   "creaturefeature:leaf",
   "creaturefeature:rabies",
   "creaturefeature:sleepy",
   "creaturefeature:sleepy_explode",
+  "creaturefeature:sparkle",
+  "creaturefeature:spore",
+  "creaturefeature:spores_spit",
+  "creaturefeature:star",
   "creaturefeature:toot"
 ]

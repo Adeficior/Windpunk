@@ -1,0 +1,18 @@
+[
+  "bits_n_bobs:chain_pulley",
+  "bits_n_bobs:cogwheel_chain_carriage",
+  "bits_n_bobs:encased_cogwheel",
+  "bits_n_bobs:encased_flanged_cogwheel",
+  "bits_n_bobs:encased_large_cogwheel",
+  "bits_n_bobs:encased_large_flanged_cogwheel",
+  "bits_n_bobs:encased_shaft",
+  "bits_n_bobs:flywheel_bearing",
+  "bits_n_bobs:generic_nixie_display",
+  "bits_n_bobs:gigantic_cogwheel",
+  "bits_n_bobs:girder_strut",
+  "bits_n_bobs:headlamp",
+  "bits_n_bobs:industrial_truss_pipe",
+  "bits_n_bobs:migrating_simple_kinetic",
+  "bits_n_bobs:simple_kinetic",
+  "bits_n_bobs:throttle_lever"
+]

@@ -1,8 +1,10 @@
 [
   "creaturefeature:friendless",
   "creaturefeature:gyas",
+  "creaturefeature:nobody",
   "creaturefeature:pill",
   "creaturefeature:punch_everyone",
+  "creaturefeature:renovation",
   "creaturefeature:sinister",
   "creaturefeature:sleepy"
 ]

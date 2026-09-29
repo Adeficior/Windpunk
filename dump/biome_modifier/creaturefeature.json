@@ -1,8 +1,12 @@
 [
   "creaturefeature:beauty",
   "creaturefeature:blitz",
+  "creaturefeature:blossom",
   "creaturefeature:canary",
   "creaturefeature:canary_go_away",
+  "creaturefeature:coat_of_arms",
+  "creaturefeature:detritus",
+  "creaturefeature:detritus_go_away",
   "creaturefeature:dreamweaver",
   "creaturefeature:eeper",
   "creaturefeature:fend",
@@ -12,10 +16,14 @@
   "creaturefeature:machination",
   "creaturefeature:minds",
   "creaturefeature:minedflayer",
+  "creaturefeature:mockingbird",
   "creaturefeature:nothing",
   "creaturefeature:runaway",
+  "creaturefeature:saint_solis",
   "creaturefeature:sinister",
   "creaturefeature:sinister_go_away",
+  "creaturefeature:stained_glass",
+  "creaturefeature:toadstool",
   "creaturefeature:vertigo",
   "creaturefeature:vertigo_dark"
 ]

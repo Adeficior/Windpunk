@@ -1,4 +1,5 @@
 [
   "lithostitched:compile_raw_templates",
+  "lithostitched:rereference_noise_settings",
   "lithostitched:set_trial_chambers_pool_aliases"
 ]

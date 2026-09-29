@@ -211,6 +211,7 @@
   "spawn:block.zombified_flower.hit",
   "spawn:block.zombified_flower.place",
   "spawn:block.zombified_flower.step",
+  "spawn:entity.angler_fish.attack",
   "spawn:entity.angler_fish.deflate",
   "spawn:entity.angler_fish.effect.deny",
   "spawn:entity.angler_fish.effect.give",

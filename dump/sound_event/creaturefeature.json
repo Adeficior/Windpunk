@@ -1,5 +1,14 @@
 [
+  "creaturefeature:entity.coa_hurt",
+  "creaturefeature:entity.fiend_die",
+  "creaturefeature:entity.fiend_hurt",
   "creaturefeature:entity.friend",
   "creaturefeature:entity.friend_hurt",
+  "creaturefeature:entity.shot",
+  "creaturefeature:entity.sinister_die",
+  "creaturefeature:entity.sinister_hurt",
+  "creaturefeature:entity.stained_glass_die",
+  "creaturefeature:entity.stained_glass_retreat",
+  "creaturefeature:music_disc.newagenevermore",
   "creaturefeature:music_disc.nothing"
 ]

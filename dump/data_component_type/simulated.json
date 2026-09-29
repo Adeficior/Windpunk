@@ -1,4 +1,5 @@
 [
+  "simulated:bounciness",
   "simulated:compass_placer",
   "simulated:last_player_death_location",
   "simulated:lodestone_compass_tracker",
