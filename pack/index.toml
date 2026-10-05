@@ -120,6 +120,11 @@ hash = "ead3aff0899e5bc61eb22fe0af86722b430f9e92990b3cd2720d5c2c1f66d023"
 metafile = true
 
 [[files]]
+file = "mods/brewin-and-chewin.pw.toml"
+hash = "22d9510588b081cf9905f6549d24bc11012aa8d9c7d38a8619ab9db5ccb7b9a8"
+metafile = true
+
+[[files]]
 file = "mods/chunky.pw.toml"
 hash = "dbf1b55fa703024af47aafaa0fab0af1c972e7faea68e6f46f4467f20f0c837b"
 metafile = true
@@ -287,6 +292,11 @@ metafile = true
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
+metafile = true
+
+[[files]]
+file = "mods/labels.pw.toml"
+hash = "457684159486fddf4466a106290ebe2c4a3d32023535312a25f09bfa7f9a8994"
 metafile = true
 
 [[files]]
