@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@adeficior/assembler": "1.0.0-rc.44",
-    "@adeficior/data-modifier-create": "^2.2.1"
+    "@adeficior/data-modifier-create": "^2.2.2"
   },
   "devDependencies": {
     "@types/bun": "latest",
