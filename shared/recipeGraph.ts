@@ -93,9 +93,6 @@ export class RecipeGraphEmitter
   ) {
     this.options = { ...defaultOptions, ...options };
 
-    // TODO remove again
-    (tags as any).registerRegistry("minecraft:recipe_serializer");
-
     this.represent(/minecraft:crafting_.+/, "minecraft:crafting_table");
     this.represent(/.+:crafting_special_.+/, "minecraft:crafting_table");
     this.represent("minecraft:smelting", "minecraft:furnace");

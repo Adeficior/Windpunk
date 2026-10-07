@@ -1,13 +1,13 @@
 name = "Registry Dump"
-filename = "registry_dump-neoforge-3.0.0.jar"
+filename = "registry_dump-4.0.0-neoforge.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/UAzbcRGX/versions/Iq83Su0A/registry_dump-neoforge-3.0.0.jar"
+url = "https://cdn.modrinth.com/data/UAzbcRGX/versions/A34HzQwD/registry_dump-4.0.0-neoforge.jar"
 hash-format = "sha512"
-hash = "42e050f52f5e9cb6def6e535f6215b360c46031fc463f86a19199d9317f2d0da847a01c5a9a182914edb08f3c58d09769a10b09fd664ec16cd1b5001e740587d"
+hash = "b32de36f3497062c14dd556a615c1b4b7b4a133736f429976f1ea367eece0aa2d8912444b7db8aa04072e76cb8444947b7a6831ecd5b45d46c26507e8dc2744c"
 
 [update]
 [update.modrinth]
 mod-id = "UAzbcRGX"
-version = "Iq83Su0A"
+version = "A34HzQwD"

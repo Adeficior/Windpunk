@@ -406,7 +406,7 @@ metafile = true
 
 [[files]]
 file = "mods/registry-dump.pw.toml"
-hash = "fc02b6ed75e6415eebe851d7161313f5e454079bb1280db97dec9949883e6841"
+hash = "15b698d786acc31642c836253a65af03cc5beb316df8cbff4b0a77f166dd9f9c"
 metafile = true
 
 [[files]]
