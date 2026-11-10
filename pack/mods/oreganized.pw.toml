@@ -1,13 +1,13 @@
 name = "Oreganized"
-filename = "Oreganized 1.21.1-5.3.0+mc1.21.1.jar"
+filename = "Oreganized 5.4.4+mc1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/2FJutzEL/versions/4LJyawKL/Oreganized%201.21.1-5.3.0%2Bmc1.21.1.jar"
+url = "https://cdn.modrinth.com/data/2FJutzEL/versions/1qsISO2E/Oreganized%205.4.4%2Bmc1.21.1.jar"
 hash-format = "sha512"
-hash = "02c698978b93ebeaceda88c6e1cc2537e5e37c6b6e90116d57a1b56c99c5f06a836b9d5ceecb11392c98b6d52abea2d13bba046bb72b52696ed613fd4e15c7a6"
+hash = "6f791f1fa3065f972ee9578de763802ae5c2ac0c8e5c849df348129a0b38a8439fa3bc251f612430b20434c35d73874dde3425e9786feac7243b83c9406482ad"
 
 [update]
 [update.modrinth]
 mod-id = "2FJutzEL"
-version = "4LJyawKL"
+version = "1qsISO2E"

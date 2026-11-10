@@ -1,13 +1,13 @@
 name = "The Lost Cities"
-filename = "lostcities-1.21-8.4.2.jar"
+filename = "lostcities-1.21-8.4.6.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/8VDCUS3b/versions/5pKSd6w7/lostcities-1.21-8.4.2.jar"
+url = "https://cdn.modrinth.com/data/8VDCUS3b/versions/jqhDeD82/lostcities-1.21-8.4.6.jar"
 hash-format = "sha512"
-hash = "29cc0c52dd8dcac36935613f44f637ffe364e0f82327d10ba932e1e57bc90d3da9982edc9cbc4b7c709065109f6ec8f43c76f08f56f71b4946473b18e9171b27"
+hash = "3bb4085104a816190ae0f1139a32be4c49049b3f927b16c705c6cebb1e63a590d97813dd753588a02cf97af402ce2aa40443413bfadb2bbaba18bc0cea2d4b9f"
 
 [update]
 [update.modrinth]
 mod-id = "8VDCUS3b"
-version = "5pKSd6w7"
+version = "jqhDeD82"
