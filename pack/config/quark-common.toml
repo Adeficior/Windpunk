@@ -112,8 +112,8 @@
 	"More Potted Plants" = true
 	"Nether Brick Fence Gate" = true
 	"Rainbow Lamps" = true
-	"Raw Metal Bricks" = true
-	Rope = true
+	"Raw Metal Bricks" = false
+	Rope = false
 	"Shear Vines" = true
 	Shingles = true
 	"Soul Sandstone" = true
@@ -125,7 +125,7 @@
 	"Variant Furnaces" = true
 	"Variant Ladders" = true
 	"Vertical Planks" = true
-	"Vertical Slabs" = true
+	"Vertical Slabs" = false
 	"Wooden Posts" = true
 	"More Stone Variants" = true
 

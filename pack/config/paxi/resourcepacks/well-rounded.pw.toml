@@ -1,0 +1,13 @@
+name = "Well Rounded"
+filename = "Well_Rounded-1.2.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/z6GA8she/versions/gEckZ6gF/Well_Rounded-1.2.zip"
+hash-format = "sha512"
+hash = "b73a7124ca02f3e95401f7bc1a0bb483044b28778f611f9f2209879abec3c6870ab1347d67641c8efddae06a1a1f0a81850670141d739e5564b94a5f71c94607"
+
+[update]
+[update.modrinth]
+mod-id = "z6GA8she"
+version = "gEckZ6gF"

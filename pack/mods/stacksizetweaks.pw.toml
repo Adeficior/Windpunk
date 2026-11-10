@@ -1,0 +1,13 @@
+name = "Stack Size Tweaks"
+filename = "stacksizetweaks-neoforge-0.3.4+1.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NCBCzeM7/versions/dnT3Gnyj/stacksizetweaks-neoforge-0.3.4%2B1.21.jar"
+hash-format = "sha512"
+hash = "9d574a78288a6fd54b561e1c4c2f2205bcec366a60be3c89ff95977f6a6a9553dc3a121abd8d1e69c355fdf60a0a9da773286836701950d8ea1f10687f9b0e67"
+
+[update]
+[update.modrinth]
+mod-id = "NCBCzeM7"
+version = "dnT3Gnyj"

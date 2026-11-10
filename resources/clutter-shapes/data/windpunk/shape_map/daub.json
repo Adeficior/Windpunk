@@ -1,0 +1,16 @@
+{
+   "add": {
+      "supplementaries:daub": {
+         "shapes": [
+            "suppsquared:daub_stairs",
+            "suppsquared:daub_slab"
+         ]
+      },
+      "supplementaries:daub_frame": {
+         "shapes": [
+            "suppsquared:daub_frame_stairs",
+            "suppsquared:daub_frame_slab"
+         ]
+      }
+   }
+}

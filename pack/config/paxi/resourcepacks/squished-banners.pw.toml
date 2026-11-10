@@ -1,0 +1,13 @@
+name = "Squished Banners"
+filename = "Squished Banners v1.0 - 1.21.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/FAJ03rX1/versions/j640vU8D/Squished%20Banners%20v1.0%20-%201.21.1.zip"
+hash-format = "sha512"
+hash = "7fb95abc4d3d96c716ba6560e103c56bca6fbb61401123a15528a042078558d134a6e65140809e238d0de77cef2e75f388e4f19fd460f59977f59671f349abb6"
+
+[update]
+[update.modrinth]
+mod-id = "FAJ03rX1"
+version = "j640vU8D"

@@ -1,0 +1,13 @@
+{
+   "add": {
+      "/(?<ns>[^:]+):(?<stem>.+?)_slab/": {
+         "shapes": [
+            "quark:vertical_${stem}_slab",
+            "everycomp:q/${ns}/vertical_${stem}_slab"
+         ],
+         "conditions": {
+            "is_blockitem": true
+         }
+      }
+   }
+}

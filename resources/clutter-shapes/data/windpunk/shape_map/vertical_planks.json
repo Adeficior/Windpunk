@@ -1,0 +1,13 @@
+{
+   "add": {
+      "/(?<ns>[^:]+):(?<stem>.+?)_planks/": {
+         "shapes": [
+            "quark:vertical_${stem}_planks",
+            "everycomp:q/${ns}/vertical_${stem}_planks"
+         ],
+         "conditions": {
+            "is_blockitem": true
+         }
+      }
+   }
+}
