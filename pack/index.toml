@@ -303,6 +303,10 @@ file = "mods/lithostitched.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/living-wind.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/lmd.pw.toml"
 metafile = true
 
