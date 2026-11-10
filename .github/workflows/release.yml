@@ -42,6 +42,9 @@ jobs:
           restore-keys: |
             mods-
 
+      - name: Refresh packwiz
+        run: packwiz --pack-file pack/pack.toml refresh --build
+
       - name: Download mods
         if: steps.downloads-cache.outputs.cache-hit != 'true'
         run: bun run download
