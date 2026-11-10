@@ -76,6 +76,9 @@ file = "config/quark-common.toml"
 file = "config/stacksizetweaks.json5"
 
 [[files]]
+file = "config/vanillabackport-common.toml"
+
+[[files]]
 file = "mods/aero_cam_sync.pw.toml"
 metafile = true
 
