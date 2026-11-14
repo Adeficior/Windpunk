@@ -5,6 +5,22 @@ file = "config/betterclouds-v1.json"
 hash = "fc824d3cd1cb390e245298fb98066bef794de0490e91f42650f2023787f27965"
 
 [[files]]
+file = "config/fancymenu/assets/loading_background.png"
+hash = "0ad6cfdba1f2bab815e890628984c7ebda9d7ec0cb3fe86e1d809bdba273dd17"
+
+[[files]]
+file = "config/fancymenu/customization/loading.txt"
+hash = "581e714a58780b625462a2922a23f2c42a04b89788a2e1137630b5c43b2f4e96"
+
+[[files]]
+file = "config/fancymenu/customization/main_manu.txt"
+hash = "45c2b747065b33ccefe130273aebda581a0136832ca84300d621c650b171e9ed"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "5b1b8ce5bcdc47c7c343cb4d1721d5e5274a9242f50c40380d31cc864223ff72"
+
+[[files]]
 file = "config/lostcities/common.toml"
 hash = "35c61fbdbbc3ecefa3eb8a1e709e3ad0c43140cf3b82c77fbc2db7ccd1ffec05"
 
