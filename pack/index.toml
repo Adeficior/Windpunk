@@ -83,6 +83,10 @@ file = "mods/aero_cam_sync.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/aetherial-islands-clusters-edit.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/aetherial-islands.pw.toml"
 metafile = true
 
@@ -156,6 +160,10 @@ metafile = true
 
 [[files]]
 file = "mods/create-bits-n-bobs.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-coasters-simulated.pw.toml"
 metafile = true
 
 [[files]]
@@ -480,6 +488,10 @@ metafile = true
 
 [[files]]
 file = "mods/trimmed.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/universal-sawmill.pw.toml"
 metafile = true
 
 [[files]]
